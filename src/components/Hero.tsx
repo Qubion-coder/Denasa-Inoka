@@ -42,7 +42,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
   const opacity = useTransform(scrollY, [0, 400], [1, 0]);
 
   return (
-    <div ref={containerRef} className="relative h-screen flex items-center justify-center overflow-hidden" style={{ backgroundColor: '#D6C1BC' }}>
+    <div ref={containerRef} className="relative h-screen flex items-center justify-center overflow-hidden" style={{ backgroundColor: '#EADCC6' }}>
 
 
 

@@ -40,7 +40,7 @@ export function InvitationContent({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className="relative font-sans text-stone-800 bg-brand-blush selection:bg-brand-plum/20"
+      className="relative font-sans text-stone-800 bg-brand-rose selection:bg-brand-plum/20"
     >
       <motion.button
         initial={{ opacity: 0, scale: 0.8 }}
@@ -66,7 +66,7 @@ export function InvitationContent({
       )}
 
       <DeferredMount active={active} delay={120} minHeight="40vh">
-        <div className="py-24 sm:py-32 bg-gradient-to-b from-brand-blush via-white to-brand-blush relative overflow-hidden">
+        <div className="py-24 sm:py-32 bg-transparent relative overflow-hidden">
           {/* Watermark Background Image covering full section including padding */}
 
           <CoupleDetails />
@@ -76,7 +76,7 @@ export function InvitationContent({
 
 
       <DeferredMount active={active} delay={180} minHeight="40vh">
-        <div className="py-24 sm:py-32 bg-white relative overflow-hidden">
+        <div className="py-24 sm:py-32 bg-transparent relative overflow-hidden">
           <CeremonyDetails event={eventParam} />
         </div>
       </DeferredMount>
@@ -84,7 +84,7 @@ export function InvitationContent({
 
 
       <DeferredMount active={active} delay={240} minHeight="40vh">
-        <div className="pt-24 pb-12 sm:py-32 bg-gradient-to-b from-white via-brand-rose/30 to-brand-blush relative overflow-hidden">
+        <div className="pt-24 pb-12 sm:py-32 bg-transparent relative overflow-hidden">
           <Location event={eventParam} />
         </div>
       </DeferredMount>
@@ -110,19 +110,19 @@ export function InvitationContent({
       </DeferredMount>
 
       <DeferredMount active={active} delay={420} minHeight="30vh">
-        <div className="py-24 sm:py-32 bg-brand-blush relative overflow-hidden">
+        <div className="py-24 sm:py-32 bg-transparent relative overflow-hidden">
           <RSVPForm inviteeName={fullInviteeName} eventName={eventLabel} eventParam={eventParam} />
         </div>
       </DeferredMount>
 
       <DeferredMount active={active} delay={480} minHeight="30vh">
-        <div className="py-24 sm:py-32 bg-gradient-to-b from-brand-blush to-white relative mt-10 overflow-hidden">
+        <div className="py-24 sm:py-32 bg-transparent relative mt-10 overflow-hidden">
           <WishesSection eventParam={eventParam} inviteeName={fullInviteeName} />
         </div>
       </DeferredMount>
 
       <DeferredMount active={active} delay={520}>
-        <footer className="py-12 bg-white border-t border-brand-lavender/20 text-center relative overflow-hidden mt-10">
+        <footer className="py-12 bg-transparent border-t border-brand-lavender/20 text-center relative overflow-hidden mt-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-brand-lavender/10 blur-[80px] rounded-full pointer-events-none" />
           <Heart className="w-6 h-6 mx-auto mb-6 text-brand-plum fill-brand-lavender/20" />
           <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-2">Thank you</p>
