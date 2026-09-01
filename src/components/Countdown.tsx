@@ -30,36 +30,74 @@ export const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-10 py-6">
-      {[
-        { label: 'Days', value: timeLeft.days },
-        { label: 'Hours', value: timeLeft.hours },
-        { label: 'Minutes', value: timeLeft.minutes },
-        { label: 'Seconds', value: timeLeft.seconds },
-      ].map((item, i) => (
-        <motion.div
-          key={item.label}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-50px" }}
-          transition={{ delay: i * 0.15, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col items-center min-w-[90px] sm:min-w-[130px] relative group"
-        >
-          {/* Glass background arch */}
-          <div className="absolute inset-0 bg-white/60 backdrop-blur-md border border-brand-lavender/40 shadow-[0_15px_30px_rgba(176,137,104,0.1)] rounded-[3rem_3rem_1rem_1rem] sm:rounded-[4rem_4rem_1.5rem_1.5rem] group-hover:shadow-[0_20px_40px_rgba(176,137,104,0.2)] transition-all duration-700 ease-out group-hover:-translate-y-3 pointer-events-none" />
+    <div className="flex justify-center w-full px-4 sm:px-6">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+        className="w-full max-w-sm sm:max-w-md bg-[#faf5f4]/95 backdrop-blur-md rounded-t-[12rem] rounded-b-[2.5rem] pt-20 sm:pt-24 pb-14 sm:pb-16 px-8 shadow-2xl border border-white/60 flex flex-col items-center text-center"
+      >
+        <h2 className="font-display text-5xl sm:text-6xl text-brand-gold mb-3 leading-tight drop-shadow-sm">
+          Forever <br />
+          <span className="text-4xl sm:text-5xl ml-8">Begins In</span>
+        </h2>
+        
+        <p className="text-[10px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase text-stone-800 font-sans font-bold mb-12 sm:mb-16">
+          A Grace-Filled Occasion
+        </p>
 
-          <div className="relative pt-10 pb-8 px-4 flex flex-col items-center w-full z-10 transition-transform duration-700 group-hover:-translate-y-3">
-            {/* Elegant number */}
-            <span className="text-5xl sm:text-6xl lg:text-7xl font-display font-medium text-brand-plum mb-4 drop-shadow-[0_2px_4px_rgba(176,137,104,0.3)] tabular-nums tracking-wide">
-              {String(item.value).padStart(2, '0')}
-            </span>
-            {/* Divider line */}
-            <div className="w-10 h-[1.5px] bg-gradient-to-r from-transparent via-brand-plum/50 to-transparent mb-4" />
-            {/* Label */}
-            <span className="text-[10px] sm:text-xs uppercase tracking-[0.4em] text-stone-600 font-semibold">{item.label}</span>
+        <div className="flex flex-col items-center gap-6 w-full">
+          {/* Days & Hours */}
+          <div className="flex items-center justify-center gap-6 sm:gap-8 w-full">
+            <div className="flex flex-col items-center w-20">
+              <span className="text-4xl sm:text-5xl font-serif text-stone-800 tracking-wide">
+                {timeLeft.days}
+              </span>
+              <span className="text-[10px] tracking-[0.2em] uppercase text-stone-600 mt-2 font-medium">
+                Days
+              </span>
+            </div>
+            <span className="text-3xl text-stone-800 font-serif pb-6">:</span>
+            <div className="flex flex-col items-center w-20">
+              <span className="text-4xl sm:text-5xl font-serif text-stone-800 tracking-wide">
+                {timeLeft.hours}
+              </span>
+              <span className="text-[10px] tracking-[0.2em] uppercase text-stone-600 mt-2 font-medium">
+                Hours
+              </span>
+            </div>
           </div>
-        </motion.div>
-      ))}
+
+          {/* Divider */}
+          <div className="flex items-center w-full max-w-[220px] justify-center gap-3 my-1">
+            <div className="h-[1px] bg-stone-300/80 flex-1" />
+            <div className="w-1.5 h-1.5 bg-stone-400/80 rotate-45" />
+            <div className="h-[1px] bg-stone-300/80 flex-1" />
+          </div>
+
+          {/* Mins & Secs */}
+          <div className="flex items-center justify-center gap-6 sm:gap-8 w-full">
+            <div className="flex flex-col items-center w-20">
+              <span className="text-4xl sm:text-5xl font-serif text-stone-800 tracking-wide">
+                {timeLeft.minutes}
+              </span>
+              <span className="text-[10px] tracking-[0.2em] uppercase text-stone-600 mt-2 font-medium">
+                Mins
+              </span>
+            </div>
+            <span className="text-3xl text-stone-800 font-serif pb-6">:</span>
+            <div className="flex flex-col items-center w-20">
+              <span className="text-4xl sm:text-5xl font-serif text-stone-800 tracking-wide">
+                {timeLeft.seconds}
+              </span>
+              <span className="text-[10px] tracking-[0.2em] uppercase text-stone-600 mt-2 font-medium">
+                Secs
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
     </div>
   );
 };

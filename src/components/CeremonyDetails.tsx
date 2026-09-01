@@ -52,9 +52,9 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
                     Guest arrival
                   </h4>
-                  <div className="space-y-1.5 text-stone-500/90 font-serif text-base sm:text-lg">
+                  <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
                     <p>
-                      <span className="font-semibold text-stone-700">Time:</span> 10:00 AM
+                      10:00 AM
                     </p>
                   </div>
                 </div>
@@ -69,9 +69,9 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
                     Poruwa Ceremony
                   </h4>
-                  <div className="space-y-1.5 text-stone-500/90 font-serif text-base sm:text-lg">
+                  <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
                     <p>
-                      <span className="font-semibold text-stone-700">Time:</span> 11:00 AM
+                      11:00 AM
                     </p>
                   </div>
                 </div>
@@ -86,9 +86,9 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
                     Reception
                   </h4>
-                  <div className="space-y-1.5 text-stone-500/90 font-serif text-base sm:text-lg">
+                  <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
                     <p>
-                      <span className="font-semibold text-stone-700">Time:</span> 12:00 Noon - 3:00 PM
+                      12:00 Noon - 3:00 PM
                     </p>
                   </div>
                 </div>

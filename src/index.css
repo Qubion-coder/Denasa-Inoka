@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Aurella';
+  src: url('/fonts/Aurella.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 @theme {
   /* Dusty Rose/Blush/Ivory/Champagne/Gold Color Palette */
   --color-brand-plum: #B88386;
@@ -9,9 +16,9 @@
   --color-brand-blush: #F7F4EE;
   --color-brand-gold: #D4AF37;
 
-  --font-serif: "Cormorant Garamond", serif;
+  --font-serif: "Playfair Display", serif;
   --font-display: "Great Vibes", cursive;
-  --font-names: "Cinzel Decorative", serif;
+  --font-names: "Playfair Display", serif;
   --font-century: "Century", "Century Schoolbook", serif;
   --font-sans: "Inter", sans-serif;
   --font-playfair: "Playfair Display", serif;

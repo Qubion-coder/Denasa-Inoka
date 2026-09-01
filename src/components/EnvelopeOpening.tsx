@@ -69,7 +69,7 @@ export function EnvelopeOpening({
           background: radial-gradient(ellipse at 30% 20%, #fffff4 0%, #f8dbdf 40%, #f0b9c3 100%);
           perspective: 1500px;
           overflow: hidden;
-          font-family: "Cormorant Garamond", serif;
+          font-family: "Playfair Display", serif;
         }
 
         /* Ambient floating orbs */
@@ -248,7 +248,7 @@ export function EnvelopeOpening({
         }
 
         .text-church {
-          font-family: "Cormorant Garamond", serif;
+          font-family: "Playfair Display", serif;
           font-size: 14px;
           font-style: italic;
           font-weight: 400;

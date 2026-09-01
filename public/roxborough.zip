@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='noindex, follow' />
+<script>
+      (()=>{try{var e,t=navigator.userAgent,r=0,n=(e,t,r)=>e.setAttribute(t,r),s=(e,t)=>e.removeAttribute(t),d='tagName',o='forEach',a='indexOf',i=location.href.includes('nonopt=1')||(navigator.platform[a]('x86_64')>-1&&0>t[a]('CrOS'))||t[a]('power')>-1||t[a]('rix')>-1;if(!i){document.documentElement.classList.add('mainopt')}}catch(i){console.error('An error occurred:',i)}})()
+      </script>
+	<!-- This site is optimized with the Yoast SEO plugin v28.3 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Page not found - Free Fonts</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - Free Fonts" />
+	<meta property="og:site_name" content="Free Fonts" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.freefonts.io\/#website","url":"https:\/\/www.freefonts.io\/","name":"Free Fonts","description":"Best Free Fonts","publisher":{"@id":"https:\/\/www.freefonts.io\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.freefonts.io\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/www.freefonts.io\/#organization","name":"Free Fonts","url":"https:\/\/www.freefonts.io\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.freefonts.io\/#\/schema\/logo\/image\/","url":"https:\/\/i0.wp.com\/www.freefonts.io\/wp-content\/uploads\/2026\/01\/ff-logo5.png?fit=218%2C37&ssl=1","contentUrl":"https:\/\/i0.wp.com\/www.freefonts.io\/wp-content\/uploads\/2026\/01\/ff-logo5.png?fit=218%2C37&ssl=1","width":218,"height":37,"caption":"Free Fonts"},"image":{"@id":"https:\/\/www.freefonts.io\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel='preconnect' href='//i0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Free Fonts &raquo; Feed" href="https://www.freefonts.io/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Free Fonts &raquo; Comments Feed" href="https://www.freefonts.io/comments/feed/" />
+<!-- www.freefonts.io is managing ads with Advanced Ads 2.0.26 – https://wpadvancedads.com/ --><!--noptimize--><script id="freef-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<!--/noptimize--><style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='genesis-sample-css' href='https://www.freefonts.io/wp-content/themes/genesis-sample-develop/style.css?ver=3.4.3' media='all' />
+<style id="genesis-sample-inline-css">
+
+		.wp-custom-logo .site-container .custom-logo-link {
+			aspect-ratio: 350/37;
+		}
+		
+		.wp-custom-logo .title-area {
+			padding-top: 16.5px;
+		}
+		
+/*# sourceURL=genesis-sample-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.freefonts.io/wp-includes/css/dist/block-library/style.min.css?ver=7.1' media='all' />
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--theme-primary: #0073e5;--wp--preset--color--theme-secondary: #0073e5;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 12px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 20px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 18px;--wp--preset--font-size--larger: 24px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-theme-primary-color{color: var(--wp--preset--color--theme-primary) !important;}.has-theme-secondary-color{color: var(--wp--preset--color--theme-secondary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-theme-primary-background-color{background-color: var(--wp--preset--color--theme-primary) !important;}.has-theme-secondary-background-color{background-color: var(--wp--preset--color--theme-secondary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-theme-primary-border-color{border-color: var(--wp--preset--color--theme-primary) !important;}.has-theme-secondary-border-color{border-color: var(--wp--preset--color--theme-secondary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-larger-font-size{font-size: var(--wp--preset--font-size--larger) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:where(.wp-block-gallery.is-layout-flex){gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}:where(.wp-block-gallery.is-layout-grid){gap: var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}
+:where(.wp-block-latest-posts.is-layout-flex){gap: 1.25em;}:where(.wp-block-latest-posts.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wpdm-font-awesome-css' href='https://use.fontawesome.com/releases/v6.7.2/css/all.css?ver=7.1' media='all' />
+<link rel='stylesheet' id='wpdm-front-css' href='https://www.freefonts.io/wp-content/plugins/download-manager/assets/css/front.min.css?ver=7.5.4' media='all' />
+<link rel='stylesheet' id='wpdm-front-dark-css' href='https://www.freefonts.io/wp-content/plugins/download-manager/assets/css/front-dark.min.css?ver=7.5.4' media='all' />
+<link rel='stylesheet' id='wpdm-modal-css' href='https://www.freefonts.io/wp-content/plugins/download-manager/assets/modal/wpdm-modal.min.css?ver=7.5.4' media='all' />
+<link rel='stylesheet' id='genesis-sample-fonts-css' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700&#038;display=swap' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.freefonts.io/wp-includes/css/dashicons.min.css?ver=7.1' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://www.freefonts.io/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='wpb-google-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&#038;ver=7.1' media='all' />
+<link rel='stylesheet' id='genesis-sample-gutenberg-css' href='https://www.freefonts.io/wp-content/themes/genesis-sample-develop/lib/gutenberg/front-end.css?ver=3.4.3' media='all' />
+<style id="genesis-sample-gutenberg-inline-css">
+.gb-block-post-grid .gb-post-grid-items h2 a:hover {
+	color: #0073e5;
+}
+
+.site-container .wp-block-button .wp-block-button__link {
+	background-color: #0073e5;
+}
+
+.wp-block-button .wp-block-button__link:not(.has-background),
+.wp-block-button .wp-block-button__link:not(.has-background):focus,
+.wp-block-button .wp-block-button__link:not(.has-background):hover {
+	color: #ffffff;
+}
+
+.site-container .wp-block-button.is-style-outline .wp-block-button__link {
+	color: #0073e5;
+}
+
+.site-container .wp-block-button.is-style-outline .wp-block-button__link:focus,
+.site-container .wp-block-button.is-style-outline .wp-block-button__link:hover {
+	color: #2396ff;
+}		.site-container .has-small-font-size {
+			font-size: 12px;
+		}		.site-container .has-normal-font-size {
+			font-size: 18px;
+		}		.site-container .has-large-font-size {
+			font-size: 20px;
+		}		.site-container .has-larger-font-size {
+			font-size: 24px;
+		}		.site-container .has-theme-primary-color,
+		.site-container .wp-block-button .wp-block-button__link.has-theme-primary-color,
+		.site-container .wp-block-button.is-style-outline .wp-block-button__link.has-theme-primary-color {
+			color: #0073e5;
+		}
+
+		.site-container .has-theme-primary-background-color,
+		.site-container .wp-block-button .wp-block-button__link.has-theme-primary-background-color,
+		.site-container .wp-block-pullquote.is-style-solid-color.has-theme-primary-background-color {
+			background-color: #0073e5;
+		}		.site-container .has-theme-secondary-color,
+		.site-container .wp-block-button .wp-block-button__link.has-theme-secondary-color,
+		.site-container .wp-block-button.is-style-outline .wp-block-button__link.has-theme-secondary-color {
+			color: #0073e5;
+		}
+
+		.site-container .has-theme-secondary-background-color,
+		.site-container .wp-block-button .wp-block-button__link.has-theme-secondary-background-color,
+		.site-container .wp-block-pullquote.is-style-solid-color.has-theme-secondary-background-color {
+			background-color: #0073e5;
+		}
+/*# sourceURL=genesis-sample-gutenberg-inline-css */
+</style>
+<link rel='stylesheet' id='elementor-frontend-css' href='https://www.freefonts.io/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://www.freefonts.io/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='widget-divider-css' href='https://www.freefonts.io/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='widget-search-form-css' href='https://www.freefonts.io/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css?ver=3.35.1' media='all' />
+<link rel='stylesheet' id='elementor-post-166650-css' href='https://www.freefonts.io/wp-content/uploads/elementor/css/post-166650.css?ver=1788241872' media='all' />
+<link rel='stylesheet' id='elementor-post-167202-css' href='https://www.freefonts.io/wp-content/uploads/elementor/css/post-167202.css?ver=1788241872' media='all' />
+<link rel='stylesheet' id='arpw-style-css' href='https://www.freefonts.io/wp-content/plugins/advanced-random-posts-widget/assets/css/arpw-frontend.css?ver=7.1' media='all' />
+<script id="jquery-core-js" src="https://www.freefonts.io/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.freefonts.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="wpdmjs-js" src="https://www.freefonts.io/wp-content/plugins/download-manager/assets/js/wpdm.min.js?ver=7.1"></script>
+<script id="wpdm-modal-js" src="https://www.freefonts.io/wp-content/plugins/download-manager/assets/modal/wpdm-modal.min.js?ver=7.5.4"></script>
+<script id="wpdm-frontjs-js-extra">
+var wpdm_url = {"home":"https://www.freefonts.io/","site":"https://www.freefonts.io/","ajax":"https://www.freefonts.io/wp-admin/admin-ajax.php","page_code":"2204113c64d15957a0008b9c5197b503"};
+var wpdm_js = {"spinner":"\u003Ci class=\"fas fa-sun fa-spin\"\u003E\u003C/i\u003E","client_id":"d317aeb197fa77652d3fe8b9ecb5e4d8","color_scheme":"system"};
+var wpdm_strings = {"pass_var":"Password Verified!","pass_var_q":"Please click following button to start download.","start_dl":"Start Download"};
+//# sourceURL=wpdm-frontjs-js-extra
+</script>
+<script id="wpdm-frontjs-js" src="https://www.freefonts.io/wp-content/plugins/download-manager/assets/js/front.min.js?ver=7.5.4"></script>
+<link rel="https://api.w.org/" href="https://www.freefonts.io/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.freefonts.io/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1" />
+<link rel="icon" href="https://www.freefonts.io/wp-content/themes/genesis-sample-develop/images/favicon.ico" />
+<link rel="pingback" href="https://www.freefonts.io/xmlrpc.php" />
+<meta name="google-site-verification" content="ZStKvWSjN_xRTZ0789RFtwB83fqgj8eKhTiWlCxatDA" /><meta name="generator" content="Elementor 4.2.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-disabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style id="wp-custom-css">
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0 !important;
+}
+
+.entry-header .entry-meta {
+  margin-bottom: 20px !important;
+  display: block !important;
+}
+
+.newbtn {
+  padding: 6px 16px !important;
+  font-size: 10px !important;
+  border-radius: 4px;
+}
+.newbtn {
+  background: #4a8eff !important;
+  border-color: #4a8eff !important;
+  text-transform: uppercase;
+  color: #fff !important;
+  margin-right: 5px;
+}
+.newbtn:hover {
+  color: #fff;
+  background-color: #1aa383 !important;
+  border-color: #1aa383 !important;
+}
+ a.newbtn:hover {
+  box-shadow: 0 3px 8px 0 rgba(47,142,255,.4);
+}
+
+.newbtn {
+ display: none !important;
+}
+
+.site-header{margin-bottom:80px}
+
+.bquote {
+    background: #fbf4ea;
+    display: block;
+    padding: 24px 30px;
+    border: 4px solid #f9daab;
+    margin: 30px 0;
+}
+
+.bquote p {
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 20px;
+}
+
+.bquote ul {
+margin-bottom: 10px;
+}
+
+.adaptivetop{min-height:90px}
+
+.adaptiveside{min-height:600px}
+
+.dafon-after-download-table {min-height:250px;margin-bottom:25px}
+
+.dafon-after-content-downfile {min-height:90px;margin-bottom:25px}
+
+.dafon-after-paragraph{min-height:90px;margin-bottom:25px;text-align: center;}
+
+.dafon-after-content-shortcode,.dafon-above-download, .dafon-manual-placement_2{min-height:90px;margin-bottom:25px;margin-top:5px}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: inherit !important;
+}
+.w3eden dl,.w3eden ol,.w3eden p,.w3eden ul{margin-bottom:3rem}.adheader,.site-footer,.w3eden .btn.btn-xs{font-size:14px}.elementor-152538 .elementor-element.elementor-element-1678b0b1{padding:40px 0 100px!important}.entrydisclosure::before{content:"\2014";margin:0 5px}.text-right{margin-bottom:50px}.related-posts h3.widget-title,.related-posts-wrap h3.related-posts-headline{display:inline-block;float:left;font-family:inherit;font-size:9pt;margin:0 0 1em;font-style:normal;font-weight:700;text-transform:capitalize}h4.jp-relatedposts-post-title{margin:8px 0 4px!important}.related-posts h3.widget-title::before,.related-posts h4.widget-title em::before{border-top:1px solid rgba(0,0,0,.2);content:"";display:block;margin-bottom:1em;min-width:30px;width:100%}a.ftcdisclosure{color:#333!important}a.ftcdisclosure:hover{text-decoration:underline!important}@media (max-width:960px){.wp-custom-logo .title-area{padding-top:16px!important;padding-bottom:0!important}}
+
+@media only screen and (max-width:1200px){.dafon-after-download-table {min-height:280px;}
+.dafon-after-content-downfile{min-height:280px;}
+.dafon-after-paragraph{min-height:280px;}
+.dafon-after-content-shortcode,.dafon-above-download, .dafon-manual-placement_2{min-height:280px;}
+}
+
+.backupadmobile,.col3block,.grid-thumbnail time,.more-link{display:none}@media screen and (max-width:759px){.adaptivetop{min-height:100px!important}.adaptiveside{min-height:280px}}.elementor-152538 .elementor-element.elementor-element-7a672d07 .elementor-post__title,.elementor-152538 .elementor-element.elementor-element-7a672d07 .elementor-post__title a{color:#444!important}.elementor-152538 .elementor-element.elementor-element-7a672d07 .elementor-post__excerpt p{color:#777!important}.elementor-152538 .elementor-element.elementor-element-bac674 .elementor-heading-title,.related-posts a.title:hover,h4.jp-relatedposts-post-title a:hover{color:#333}.elementor-152538 .elementor-element.elementor-element-7a672d07>.elementor-widget-container{margin:45px 0 0!important}.elementor-search-form{margin-top:2px!important}.cta_wrap a:hover,.elementor-152538 .elementor-element.elementor-element-7a672d07 .elementor-post__title a:hover,.elementor-widget-posts .elementor-post__title a:hover,.listtop a:hover,.related-posts a.title:hover,.related-posts-item:hover .jp-relatedposts-post-title a{text-decoration:underline}.elementor-widget-posts .elementor-pagination{margin:30px auto!important;font-size:22px}.archive-pagination li a,.author-box-title,.entry-content h3,.entry-content h4,.widget-title,body,h1,h2,h3,h4,h5,h6,input,p.entry-meta,select,table td,textarea{font-weight:400}.genesis-nav-menu .sub-menu a{font-size:13px;border:0;background-color:#000}.adheader{margin:0;color:#888;text-align:left}.listcol ul,.listfont ul{margin-bottom:0!important;padding:0!important}a.cbutton,p.entry-meta{letter-spacing:0!important}.listcol ul li,.listfont ul li{list-style:none}.content-sidebar-wrap{margin-top:-5px}.btn_cluster,.cta_wrap,.dwbtn_cluster{width:auto;height:auto}.customform{margin-top:5px}.genesis-nav-menu .sub-menu{border-top:0!important}.btn-primary,.panel-heading,.w3eden #csp .list-group-item,.w3eden #package-description .wp-switch-editor,.w3eden #wpdm-dashboard-sidebar .list-group-item,.w3eden #xfilelist .panel-heading,.w3eden .alert::before,.w3eden .btn,.w3eden .btn.wpdm-front h3.title,.w3eden .discount-msg,.w3eden .fetfont,.w3eden .modal-title,.w3eden .panel .panel-heading,.w3eden .panel.dashboard-panel h3,.w3eden .w3eden.author-dashbboard .nav.nav-tabs li a,.w3eden .wpdm-frontend-tabs a,.w3eden .wpdm-social-lock-box .IN-widget a span:last-child,.w3eden .wpdm_cart thead th{font-family:Open Sans,sans-serif!important;text-transform:uppercase;font-weight:600}table.downbtn{margin-bottom:10px!important}.downfile td{border-left:0;border-right:0;padding:.75rem;border-bottom:0!important;background:rgba(0,0,0,3%);vertical-align:middle!important}.btn{display:inline-block;font-weight:600;color:#212529;letter-spacing:1px;text-align:center;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid;font-size:1rem;line-height:1.5;transition:.3s ease-in-out}.btn-primary,.btn-secondary{background:#4a8eff;border-color:#4a8eff;text-transform:uppercase;color:#fff;margin-right:5px}.btn-primary{padding:7px 20px!important;font-size:14px}.btn-secondary{padding:6px 16px!important;font-size:10px;border-radius:4px}.btn-primary:hover,.btn-secondary:hover{color:#fff;background-color:#1aa383!important;border-color:#1aa383!important}a.btn-primary:hover,a.btn-secondary:hover{box-shadow:0 3px 8px 0 rgba(47,142,255,.4)}.panel-heading,.w3eden .panel .panel-heading{padding:12px!important;font-size:13pt!important;background:#ecf0f1;border-bottom:1px solid #fff}.text-right{text-align:right!important}.custom404,.errorpage,.pagination{text-align:center}.downfile tbody{border-bottom:1px solid #eee}.downfile tr{border-top:1px solid #eee}body,body>div{font-size:18px!important}.leftbtn a:hover,.menu-toggle,.site-footer p,.sub-menu-toggle{color:#fff}.elementor-column-gap-default>.elementor-column>.elementor-element-populated,.site-inner{padding:0}.archive-description{display:none;margin-bottom:0}.elementor-widget-theme-page-title .elementor-heading-title{color:#54595f;font-size:35px}.button,.site-container div.wpforms-container-full .wpforms-form button[type=submit],.site-container div.wpforms-container-full .wpforms-form input[type=submit],button,input[type=button],input[type=reset],input[type=submit]{font-size:16px!important;font-weight:600;text-transform:capitalize}.single .entry-footer .entry-meta{padding:20px 0 0;border-bottom:none;border-top:1px solid #eee;margin-top:24px}.archive-description .entry-title,.archive-title,.author-box-title{font-size:20px;font-weight:600;margin-bottom:10px}.related-posts-wrap .related-posts-item p.title,.site-footer p,p.entry-meta{margin-bottom:0}.author-box{border-bottom:none;padding:30px;background-color:#f5f5f5}.genesis-nav-menu a,.js .nav-primary,.nav-primary{padding-bottom:15px;padding-top:15px}p.entry-meta{font-size:16px;text-transform:capitalize}.archive-pagination li a:focus,.archive-pagination li a:hover,.archive-pagination li.active a{color:#111}.genesis-nav-menu{line-height:1}.custom-logo{padding-top:0!important}@media (max-width:1023px){.adresponsive{height:280px}.wp-custom-logo .title-area img{margin-left:0!important}}.site-header{position:inherit;padding:0;box-shadow:none}.custom404{margin-top:10%;padding:0 20%}.site-title a,.site-title a:focus,.site-title a:hover{color:#fff;font-size:22px}.archive-pagination li a,.arpw-random-post ul li a:hover,.genesis-nav-menu .current-menu-item>a,.genesis-nav-menu .sub-menu .current-menu-item>a:focus,.genesis-nav-menu .sub-menu .current-menu-item>a:hover,.genesis-nav-menu a:focus,.genesis-nav-menu a:hover,.related-posts a.title,a{color:#fa5738}.entry-header .entry-meta{margin-bottom:0;display:none}a{text-decoration:none}table td{width:50%}.alignnone,.col4wrap,.col7block,.tableblock,.tcol2wrap,img.alignnone{display:block}.w3eden .table{margin-bottom:10px}.w3eden .btn{font-size:10px}.genesis-nav-menu a{font-size:13px;text-transform:uppercase;color:#fff}.entry-header .entry-title{font-size:36px!important}h2{font-size:30px}.breadcrumb{border-bottom:none;font-size:18px;margin-bottom:20px;padding-bottom:0}.button:focus,.button:hover,.site-container div.wpforms-container-full .wpforms-form button[type=submit]:focus,.site-container div.wpforms-container-full .wpforms-form button[type=submit]:hover,.site-container div.wpforms-container-full .wpforms-form input[type=submit]:focus,.site-container div.wpforms-container-full .wpforms-form input[type=submit]:hover,button:focus,button:hover,input[type=button]:focus,input[type=button]:hover,input[type=reset]:focus,input[type=reset]:hover,input[type=submit]:focus,input[type=submit]:hover{box-shadow:none;background-color:#fa5738;border-width:0;color:#fff}.col4wrap,.tcol2wrap{margin-bottom:0!important}.dwbtn_cluster,.nonbtn_cluster{display:inline-block;margin:0 auto}body{font-family:"Open Sans",sans-serif;font-size:18px;line-height:1.625}h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;line-height:1.2;margin:0 0 20px}.btn_cluster{display:inline-block;margin:20px auto}.leftleftbtn{float:left;margin-right:24px}.mybtnleft,.mybtnright{display:inline-block;font-size:16px;text-decoration:none;font-weight:600;font-family:Open Sans,Arial,sans-serif;margin:0;transition-duration:.2s;cursor:pointer;font-style:normal}.leftbtn{float:left;margin-right:0}.leftbtn a,.leftleftbtn a,.leftleftbtn a:hover{color:#fff;text-decoration:none!important}.mybtnleft{background:#f5734c;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;color:#fff!important;padding:10px 36px}.mybtnleft:hover{transition-duration:.2s;text-decoration:none!important;background:#5c646f}.mybtnright{background:#fff;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;padding:8px 36px;border:2px solid #f5734c;color:#f5734c!important}.site-footer,.site-header{background-color:#000}.mybtnright:hover{transition-duration:.2s;background:#f5734c;text-decoration:none!important;color:#fff!important}.mybtnleft:before,.mybtnright:after{font-family:FontAwesome;font-weight:400;text-decoration:inherit;font-style:normal}.mybtnleft:before{content:"\f019";padding-right:.5em}.mybtnright:after{content:"\f178";padding-left:.5em}.sidebar .widget{margin-bottom:40px}.site-inner,.wrap{float:none;margin:0 auto;max-width:1200px}.nav-footer .genesis-nav-menu,.posts-archive .content .entry .entry-content,.related-posts{padding:20px 0}.w3eden .panel-default{margin-bottom:20px;margin-top:15px}.w3eden .btn-sm,.w3eden .btn-xs{padding:7px 20px!important;font-size:14px;margin-right:5px}.arpw-random-post ul li a{color:#444;font-weight:700;font-size:17px}.arpw-time{font-size:13px}.arpw-thumbnail{margin-right:12px!important}.edd_purchase_submit_wrapper{margin-bottom:75px;display:block!important}.cta_wrap,.listfont ul,.nav-footer,h4.jp-relatedposts-post-title a{display:inline-block}table.comdown{margin:25px 0;background:rgba(0,0,0,.03);border:1px solid #e1e1e1}.listcol ul,.listfont ul{margin-left:0}.morefonts{margin:75px 0 70px}a.cbutton{border-radius:0!important;color:#333!important;line-height:1.2!important;font-size:18px!important;font-weight:600!important;padding:0!important;text-transform:none!important;word-spacing:0!important;text-decoration:underline!important}.entry-content .button:focus,a.cbutton:hover{background:0 0!important;color:#333!important;text-decoration:none!important}.genesis-nav-menu a{font-weight:400;letter-spacing:1.5px}.site-inner{margin-top:0!important;margin-bottom:35px}.entry-title{font-size:1.6rem}.full-width-content .content{max-width:100%;width:100%}.customform form{background-color:#f5f6fa!important;width:auto;height:44px;border-radius:5px;display:flex;flex-direction:row;align-items:center;border:1px solid #e4e5ec!important}.customform input{font-size:16px!important;height:100%;width:100%;padding:6px 10px}.customform button{all:unset;cursor:pointer;width:44px;height:44px;text-align:center;font-weight:400}.custom-logo-link{outline:0!important}.gsc-search-box-tools .gsc-search-box .gsc-input{padding-right:11px!important}table.table-bordered td{background:#fff;font-size:18px;font-family:open sans,sans serif;border:1px solid #dee2e6;padding:12px}.cta_wrap{margin:0 auto 5px}.cta_wrap a,.cta_wrap a:hover{color:#337ab7}.errorpage p,.related-posts-wrap .related-posts-item{margin:0}#menu-footer-menu{text-align:center!important}.nav-footer .genesis-nav-menu a{border:none;font-weight:400;letter-spacing:3px;margin:0 20px;padding:0}.wp-custom-logo .title-area{max-width:247px;padding-bottom:0;padding-top:16px;font-size:0}.listfont{margin:10px 0}.listfont ul li{float:left;margin-right:20px}.listtop a{background:#eee;padding:3px 10px;display:block;font-weight:700;border-radius:4px}.listcol{margin-top:10px}.listcol ul li a{color:#444;display:block;transition:none;padding-left:10px;font-weight:400}.listcol ul li a:hover{color:#333;background:#eee}.dcol7wrap,.scol1wrap{display:inline-block;width:100%}.dcol1,.dcol2,.dcol3,.dcol4,.dcol5,.dcol6{width:14.285%;float:left;padding-right:15px}.dcol7{width:14.285%;float:left}.col3wrap,.tcol1wrap{display:block;width:100%}.scol3wrap{display:inline-block;width:100%;margin-bottom:12px}.scol1,.scol2,.scol4,.scol5{width:33.33%;float:left;padding-right:15px}.scol3,.scol6{width:33.33%;float:left}.scol7{width:100%;float:left}@media only screen and (max-width:1280px){.site-inner,.wrap{max-width:1140px}}@media only screen and (max-width:1200px){.dafon-after-content-shortcode,.dafon-after-paragraph,.dafon-manual-placement_2,.search-ad{min-height:280px!important}.backupaddesk{display:none}.backupadmobile{display:block!important}.site-inner,.wrap{padding:0 5%;max-width:100%}.site-header .wrap{padding:0 5%}.site-header .wrap .wrap{padding:0}}@media only screen and (max-width:1100px){.custom404{padding:0 10%}}@media all and (max-width:1023px){.site-inner,.wrap{max-width:100%}.site-header .wrap{padding:0 5%}.col4block,.tcol1wrap,.tcol2wrap{display:block}.col4wrap,.wp-custom-logo .title-area{width:100%}.genesis-nav-menu,.wp-custom-logo .title-area{margin:0 auto;text-align:center}.wp-custom-logo .title-area img{margin-left:18px}.title-area{float:none;text-align:center}.nav-primary{float:none}.five-sixths,.four-sixths,.one-fourth,.one-half,.one-sixth,.one-third,.three-fourths,.three-sixths,.two-fourths,.two-sixths,.two-thirds{margin-left:0}.tcol2wrap{margin-bottom:0}.col4wrap{display:inline-block!important;margin-bottom:12px}.dcol1,.dcol2,.dcol3{width:25%;float:left;padding-right:15px}.dcol4{width:25%;float:left;padding-right:0}.dcol5,.dcol6,.dcol7{width:33.33%;float:left}.dcol5,.dcol6{padding-right:15px}}@media all and (max-width:960px){.wp-custom-logo .title-area{text-align:center;margin:auto;padding-top:6px;padding-bottom:6px;float:left}.title-area{float:left;text-align:left}.genesis-nav-menu{text-align:left;margin:auto}.site-inner{margin-top:100px}}@media all and (max-width:860px){.site-inner{padding:0 5%}}@media all and (max-width:600px){.col7block{display:none}.col3block{display:block;margin-top:40px}}@media all and (max-width:500px){.wp-custom-logo .title-area{text-align:center;margin:0 auto;float:none}}@media (max-width:520px){.leftleftbtn{float:none!important;text-align:center;margin:0 0 20px!important}}@media all and (max-width:425px){.col7block,.tcol1wrap{display:block}.col3block{display:none}.col4wrap{margin-bottom:0!important}.tcol2wrap{display:inline-block;margin-bottom:12px;width:100%}.col4wrap{display:block;width:100%}.dcol1,.dcol3,.dcol5{width:50%;float:left;padding-right:15px}.dcol2,.dcol4,.dcol6{width:50%;float:left;padding-right:0}.dcol7{width:100%;float:left}}.posts-archive .content .entry{padding:0;box-shadow:none;height:100%!important}.archive-pagination a,.posts-archive .content aa{background:0 0!important}.posts-archive .content .entry-title{color:#54595f;font-size:22px;font-weight:600;margin-bottom:-6px}.grid-thumbnail:hover img,.related-posts-wrap .related-posts-item:hover{opacity:1}.entry-time{line-height:1.3em;font-size:12px;margin-bottom:13px;color:#adadad}.entry-title a,.total-posts{color:#54595f}.posts-archive .content .entry p{line-height:1.5em;font-size:14px;color:#777}.custom-text{margin-bottom:9px}body .entry{margin-bottom:30px}@media (max-width:1024px) and (min-width:768px){article.one-third{width:47%;margin-left:2.564102564102564%}body .first{clear:none}.posts-archive .content .entry p{min-height:84px}.mobile-container{margin-left:-20px}}.grid-thumbnail a{-webkit-transition:none;-moz-transition:none;-ms-transition:none;-o-transition:none;transition:none}.customform{margin-bottom:5px!important}.entry-title a:focus,.entry-title a:hover{color:#54595f;text-decoration:underline}.total-posts{margin:35px auto;font-size:35px}.archive-pagination .active a{color:#000;text-decoration:none}body .archive-pagination a{font-size:22px}.archive-pagination a:hover{color:#000;text-decoration:none!important}body .archive-pagination li a{padding:4px 6px}.related-posts h4.widget-title,.related-posts-wrap h3.related-posts-headline{display:inline-block;float:left;font-family:inherit;font-size:9pt;font-weight:700;margin:0 0 1em}.related-posts h4.widget-title em{font-style:normal;font-weight:700;text-transform:capitalize}.related-posts-wrap .related-posts-items{display:flex;flex-wrap:wrap;gap:20px}.related-posts-wrap .related-posts-item{opacity:.8;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;float:left;width:calc(33% - 12px)}.related-posts-wrap .related-posts-item .categories{color:#333;opacity:.6}.related-posts-wrap .related-posts-item img{height:auto;max-width:100%}.related-posts-wrap .related-posts-item .categories,.related-posts-wrap .related-posts-item .title{font-size:14px;line-height:1.2}@media only screen and (max-width:640px){.related-posts-wrap .related-posts-item{width:calc(50% - 10px)}}@media only screen and (max-width:320px){.related-posts-wrap .related-posts-item{clear:both;margin:0 0 1em;width:100%}}.related-posts{padding:0;border-top:0;margin-top:2em}.related-posts-wrap p.title{padding:0 0 1px}.related-posts-wrap{clear:both;position:relative;padding-top:0;margin:1em 0 2em}h4.jp-relatedposts-post-title{line-height:0}.df-below-title-ad{margin-bottom:20px}.elementor-heading-title{margin:25px auto 45px!important}.col7block{margin-top:40px}.elementor-posts .elementor-post__title{font-size:22px!important;font-weight:600}.elementor-widget:not(:last-child){margin-block-end:0!important;margin-bottom:0!important}
+
+p.site-description {
+display: none !important;
+}
+
+.site-description {
+ display: none !important;
+}
+
+.elementor-167204 .elementor-element.elementor-element-18c584af {
+  padding: 40px 0 100px !important;
+}
+</style>
+<meta name="generator" content="WordPress Download Manager 7.5.4" />
+		        <style>
+            /* WPDM Link Template Styles */        </style>
+		        <style>
+
+            :root {
+                --color-primary: #4a8eff;
+                --color-primary-rgb: 74, 142, 255;
+                --color-primary-hover: #5998ff;
+                --color-primary-active: #3281ff;
+                --clr-sec: #6c757d;
+                --clr-sec-rgb: 108, 117, 125;
+                --clr-sec-hover: #6c757d;
+                --clr-sec-active: #6c757d;
+                --color-success: #018e11;
+                --color-success-rgb: 1, 142, 17;
+                --color-success-hover: #0aad01;
+                --color-success-active: #0c8c01;
+                --color-info: #2CA8FF;
+                --color-info-rgb: 44, 168, 255;
+                --color-info-hover: #2CA8FF;
+                --color-info-active: #2CA8FF;
+                --color-warning: #FFB236;
+                --color-warning-rgb: 255, 178, 54;
+                --color-warning-hover: #FFB236;
+                --color-warning-active: #FFB236;
+                --color-danger: #ff5062;
+                --color-danger-rgb: 255, 80, 98;
+                --color-danger-hover: #ff5062;
+                --color-danger-active: #ff5062;
+                --color-green: #30b570;
+                --color-blue: #0073ff;
+                --color-purple: #8557D3;
+                --color-red: #ff5062;
+                --color-muted: rgba(69, 89, 122, 0.6);
+                --wpdm-font: "Sen", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+
+            .wpdm-download-link.btn.btn-primary {
+                border-radius: 4px;
+            }
+
+
+        </style>
+		        <script>
+            function wpdm_rest_url(request) {
+                return "https://www.freefonts.io/wp-json/wpdm/" + request;
+            }
+        </script>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="error404 wp-custom-logo wp-embed-responsive wp-theme-genesis wp-child-theme-genesis-sample-develop header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-hidden no-js elementor-default elementor-template-full-width elementor-kit-166650 aa-prefix-freef- elementor-page-167202">	<script>
+	//<![CDATA[
+	(function(){
+		var c = document.body.classList;
+		c.remove( 'no-js' );
+		c.add( 'js' );
+	})();
+	//]]>
+	</script>
+	<div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li><li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li></ul><header class="site-header"><div class="wrap"><div class="title-area"><a href="https://www.freefonts.io/" class="custom-logo-link" rel="home" data-wpel-link="internal"><img width="218" height="37" src="https://i0.wp.com/www.freefonts.io/wp-content/uploads/2026/01/ff-logo5.png?fit=218%2C37&amp;ssl=1" class="custom-logo" alt="ff-logo5" decoding="async" /></a><p class="site-title">Free Fonts</p><p class="site-description">Best Free Fonts</p></div><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-main-menu" class="menu genesis-nav-menu menu-primary js-superfish"><li id="menu-item-167206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167206"><a href="/" data-wpel-link="internal"><span >All Fonts</span></a></li>
+<li id="menu-item-167229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167229"><a target="_blank" href="https://www.freefonts.io/?s=font" data-wpel-link="internal"><span >Search Fonts</span></a></li>
+<li id="menu-item-167207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167207"><a target="_blank" href="https://www.creativefabrica.com/freebies/free-fonts/ref/777922/" data-wpel-link="external" rel="nofollow"><span >Free Fonts</span></a></li>
+<li id="menu-item-167230" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167230"><a href="#"><span >Contact</span></a></li>
+</ul></div></nav></div></header><div class="site-inner">		<div data-elementor-type="error-404" data-elementor-id="167202" class="elementor elementor-167202 elementor-location-single" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-375b4b00 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="375b4b00" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-wider">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1dca02d" data-id="1dca02d" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4bc1ae08 elementor-widget elementor-widget-heading" data-id="4bc1ae08" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">404</p>				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-250cddd2" data-id="250cddd2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-70438b19 elementor-widget elementor-widget-heading" data-id="70438b19" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Ooops.</h2>				</div>
+				<div class="elementor-element elementor-element-113d496d elementor-widget elementor-widget-heading" data-id="113d496d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h3 class="elementor-heading-title elementor-size-default">The page you were looking for couldn't be found.</h3>				</div>
+				<div class="elementor-element elementor-element-76d5641a elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="76d5641a" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				<div class="elementor-element elementor-element-291386c3 elementor-widget elementor-widget-heading" data-id="291386c3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<p class="elementor-heading-title elementor-size-default">You can navigate through our menu or use this search bar:</p>				</div>
+				<div class="elementor-element elementor-element-4fa1a48f elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-search-form--icon-search elementor-widget elementor-widget-search-form" data-id="4fa1a48f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
+							<search role="search">
+			<form class="elementor-search-form" action="https://www.freefonts.io" method="get">
+												<div class="elementor-search-form__container">
+					<label class="elementor-screen-only" for="elementor-search-form-4fa1a48f">Search</label>
+
+					
+					<input id="elementor-search-form-4fa1a48f" placeholder="Search..." class="elementor-search-form__input" type="search" name="s" value="">
+					
+											<button class="elementor-search-form__submit" type="submit" aria-label="Search">
+															<div class="e-font-icon-svg-container"><svg class="fa fa-search e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg></div>													</button>
+					
+									</div>
+			</form>
+		</search>
+						</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-77d45ffc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="77d45ffc" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4d465bc6" data-id="4d465bc6" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7a879aa6 elementor-widget elementor-widget-html" data-id="7a879aa6" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<style>
+.adblock {
+    display: none !important;
+}
+</style>				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div><footer class="site-footer"><div class="wrap"><p>Copyright &#xA9;&nbsp;2026 · <a href="https://demo.studiopress.com/" data-wpel-link="external" target="_blank" rel="nofollow">Genesis Sample</a> on <a href="https://www.studiopress.com/" data-wpel-link="external" target="_blank" rel="nofollow">Genesis Framework</a> · <a href="https://wordpress.org/" data-wpel-link="external" target="_blank" rel="nofollow">WordPress</a> · <a rel="nofollow" href="#">Log in</a></p></div></footer></div><div id="adngin-outstream-0"></div><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/genesis-sample-develop/*","/wp-content/themes/genesis/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+            <script>
+
+                const abmsg = "We noticed an ad blocker. Consider whitelisting us to support the site ❤️";
+                const abmsgd = "download";
+                const iswpdmpropage = 0;
+
+                jQuery(function($){
+
+                                    });
+            </script>
+            <div id="fb-root"></div>
+            			<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<script id="advanced-ads-find-adblocker-js" src="https://www.freefonts.io/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js"></script>
+<script id="jquery-form-js" src="https://www.freefonts.io/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0"></script>
+<script id="fix-elementor-target-js" src="https://www.freefonts.io/wp-content/plugins/fix-elementor-target/fix-elementor-target.js?ver=1.0.1"></script>
+<script id="hoverIntent-js" src="https://www.freefonts.io/wp-includes/js/hoverIntent.min.js?ver=1.10.2"></script>
+<script id="superfish-js" src="https://www.freefonts.io/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.10"></script>
+<script id="superfish-args-js" src="https://www.freefonts.io/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=3.6.2"></script>
+<script id="skip-links-js" src="https://www.freefonts.io/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.6.2"></script>
+<script id="elementor-webpack-runtime-js" src="https://www.freefonts.io/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.2.4"></script>
+<script id="elementor-frontend-modules-js" src="https://www.freefonts.io/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.2.4"></script>
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://www.freefonts.io/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.2.4","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"e_panel_promotions":true,"theme_builder_v2":true,"e_pro_free_trial_popup":true,"nested-elements":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"mega-menu":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/www.freefonts.io\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/www.freefonts.io\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/www.freefonts.io\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"0e198bd473","atomicFormsSendForm":"5d4aa4bd93"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page not found - Free Fonts","excerpt":""}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script id="elementor-frontend-js" src="https://www.freefonts.io/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.4"></script>
+<script id="genesis-sample-develop-responsive-menu-js-extra">
+var genesis_responsive_menu = {"mainMenu":"Menu","menuIconClass":"dashicons-before dashicons-menu","subMenu":"Submenu","subMenuIconClass":"dashicons-before dashicons-arrow-down-alt2","menuClasses":{"others":[".nav-primary"]}};
+//# sourceURL=genesis-sample-develop-responsive-menu-js-extra
+</script>
+<script id="genesis-sample-develop-responsive-menu-js" src="https://www.freefonts.io/wp-content/themes/genesis/lib/js/menu/responsive-menus.min.js?ver=1.1.3"></script>
+<script id="elementor-pro-webpack-runtime-js" src="https://www.freefonts.io/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.35.1"></script>
+<script id="wp-hooks-js" src="https://www.freefonts.io/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="https://www.freefonts.io/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.freefonts.io\/wp-admin\/admin-ajax.php","nonce":"55d021fe5a","urls":{"assets":"https:\/\/www.freefonts.io\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.freefonts.io\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.freefonts.io\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script id="elementor-pro-frontend-js" src="https://www.freefonts.io/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.35.1"></script>
+<script id="pro-elements-handlers-js" src="https://www.freefonts.io/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.35.1"></script>
+<!--noptimize--><script>!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><!--/noptimize--><script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.freefonts.io/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script></body></html>
