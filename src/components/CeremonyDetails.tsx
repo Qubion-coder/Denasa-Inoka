@@ -14,21 +14,22 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
       {/* Premium ambient backdrop */}
       <div className="absolute top-0 right-0 w-[80%] h-[80%] bg-gradient-radial from-brand-lavender/10 to-transparent rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
-        {/* Left Side: Text Content */}
-        <div className="lg:w-1/2 relative z-10 w-full">
+      <div className="flex flex-col items-center justify-center gap-16 lg:gap-24">
+        {/* Center: Text Content */}
+        <div className="relative z-10 w-full max-w-2xl mx-auto flex flex-col items-center">
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2, ease: "easeOut" }}
+            className="w-full flex flex-col items-center"
           >
-            <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg">
+            <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg text-center">
                 Together with our families, we request the pleasure of your company at the celebration of our wedding ceremony
             </p>
 
             {/* Premium Timeline */}
-            <div className="relative space-y-12 ml-10 sm:ml-12 border-l-[1.5px] border-brand-lavender/30 pl-10 sm:pl-12 py-4">
+            <div className="relative space-y-12 ml-10 sm:ml-12 border-l-[1.5px] border-brand-lavender/30 pl-10 sm:pl-12 py-4 w-full max-w-md">
 
               {/* Date */}
               <div className="relative group flex items-center min-h-[48px]">
