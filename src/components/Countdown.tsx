@@ -42,10 +42,8 @@ export const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
           Forever <br />
           <span className="text-4xl sm:text-5xl ml-8">Begins In</span>
         </h2>
-        
-        <p className="text-[10px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase text-stone-800 font-sans font-bold mb-12 sm:mb-16">
-          A Grace-Filled Occasion
-        </p>
+
+
 
         <div className="flex flex-col items-center gap-6 w-full">
           {/* Days & Hours */}
