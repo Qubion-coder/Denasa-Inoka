@@ -25,11 +25,11 @@ export const CoupleDetails: React.FC = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-          className="text-center lg:text-right flex-1 lg:pr-10 order-4 lg:order-1"
+          className="text-center lg:text-right flex-1 lg:pr-10"
         >
           <div className="mb-4 flex flex-col items-center lg:items-end">
-            <span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>
-            <h3 className="text-4xl sm:text-5xl font-names text-stone-800 mb-2 drop-shadow-sm">DENASA</h3>
+            {/*<span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>*/}
+            <h3 className="text-4xl sm:text-5xl font-names text-brand-gold mb-2 drop-shadow-sm">DENASA</h3>
             <p className="text-stone-700 font-century text-xs mb-2"></p>
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Son of Mr. Karunasena Abeysinghe & Mrs. Sirima Abeysinghe</p>
           </div>
@@ -37,21 +37,17 @@ export const CoupleDetails: React.FC = () => {
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />
           </div>
         </motion.div>
-
-        {/* Center Couple Image (Arch Design) */}
-
-
         {/* Bride Details (Right) */}
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-          className="text-center lg:text-left flex-1 lg:pl-10 order-2 lg:order-3"
+          className="text-center lg:text-left flex-1 lg:pl-10"
         >
           <div className="mb-4 flex flex-col items-center lg:items-start">
-            <span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>
-            <h3 className="text-4xl sm:text-5xl font-names text-stone-800 mb-2 drop-shadow-sm">INOKA</h3>
+            {/*<span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>*/}
+            <h3 className="text-4xl sm:text-5xl font-names text-brand-gold mb-2 drop-shadow-sm">INOKA</h3>
             <p className="text-stone-700 font-century text-xs mb-2"></p>
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg text-center">Daughter of Late Mr. Francis Malawige &<br />Mrs. Prema Witharana Pathirana</p>
           </div>
@@ -59,6 +55,13 @@ export const CoupleDetails: React.FC = () => {
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />
           </div>
         </motion.div>
+
+
+
+        {/* Center Couple Image (Arch Design) */}
+
+
+
       </div>
     </div>
   );

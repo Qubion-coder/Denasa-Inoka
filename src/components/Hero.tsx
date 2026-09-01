@@ -67,7 +67,8 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
 
           <div className="mb-6 sm:mb-10 inline-block bg-gradient-to-r from-brand-rose/90 via-white/95 to-brand-rose/90 backdrop-blur-md border border-brand-plum/40 px-8 sm:px-10 py-2.5 sm:py-3 rounded-full shadow-[0_10px_30px_rgba(212,175,55,0.2)]">
             <span className="text-stone-900 uppercase tracking-[0.2em] sm:tracking-[0.3em] text-[10px] sm:text-xs font-black block drop-shadow-sm font-sans">
-              The celebration of the wedding ceremony of
+              The wedding celebration of
+
             </span>
           </div>
 
