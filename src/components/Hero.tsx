@@ -59,34 +59,77 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
           className="flex flex-col items-center"
         >
-          <div className="flex items-center gap-4 mb-6 sm:mb-8">
-            <div className="h-[1px] w-16 sm:w-24 bg-gradient-to-l from-brand-plum to-transparent" />
-            <Heart className="w-5 h-5 text-brand-plum fill-brand-plum/30 animate-pulse" />
-            <div className="h-[1px] w-16 sm:w-24 bg-gradient-to-r from-brand-plum to-transparent" />
-          </div>
+          <div className="flex flex-col items-center justify-center space-y-4 sm:space-y-5 text-stone-800 w-full mt-4 sm:mt-8 px-4 z-10 relative">
+            
+            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-stone-800 drop-shadow-sm mb-6 sm:mb-8">
+              Denasa & Inoka
+            </h2>
 
-          <div className="mb-6 sm:mb-10 inline-block bg-gradient-to-r from-brand-rose/90 via-white/95 to-brand-rose/90 backdrop-blur-md border border-brand-plum/40 px-8 sm:px-10 py-2.5 sm:py-3 rounded-full shadow-[0_10px_30px_rgba(212,175,55,0.2)]">
-            <span className="text-stone-900 uppercase tracking-[0.2em] sm:tracking-[0.3em] text-[10px] sm:text-xs font-black block drop-shadow-sm font-sans">
-              The wedding celebration of
+            <p className="font-sans text-[9px] sm:text-[10px] uppercase tracking-[0.35em] font-semibold text-stone-800/90">
+              INVITE YOU TO CELEBRATE
+            </p>
+            <p className="font-sans text-[9px] sm:text-[10px] uppercase tracking-[0.35em] font-semibold text-stone-800/90 pb-2">
+              OUR
+            </p>
 
-            </span>
-          </div>
-
-          <div className="relative mb-6 sm:mb-12 w-full flex justify-center py-4 sm:py-10 px-2 overflow-visible">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] sm:w-[125%] h-[150%] sm:h-[160%] bg-gradient-radial from-white/95 via-white/85 to-transparent blur-[40px] sm:blur-[70px] rounded-full pointer-events-none" />
-
-            <h1 className="relative text-4xl sm:text-[5.5rem] lg:text-[7.5rem] font-names text-[#FAF9F6] font-normal leading-normal sm:leading-[0.85] drop-shadow-[0_4px_16px_rgba(255,255,255,0.9)] tracking-normal sm:tracking-tight overflow-visible py-2">
-              DENASA <br className="sm:hidden" />
-              <span className="text-[#FAF9F6] font-normal mx-2 sm:mx-6 text-3xl sm:text-[4.5rem] lg:text-[6rem] inline-block -translate-y-1 sm:-translate-y-6 drop-shadow-[0_4px_12px_rgba(212,175,55,0.3)]">&</span>
-              <br className="sm:hidden" />
-              INOKA
+            <h1 className="font-display text-7xl sm:text-[7rem] lg:text-[8.5rem] text-stone-800 font-normal drop-shadow-[1px_1px_2px_rgba(0,0,0,0.1)] py-2 sm:py-4 -my-4 leading-none">
+              Wedding
             </h1>
-          </div>
 
+            <div className="flex flex-col items-center w-full max-w-xs sm:max-w-sm mt-8 sm:mt-12 space-y-4">
+              <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.35em] font-bold text-stone-800">
+                NOVEMBER
+              </p>
+              
+              <div className="w-full flex items-center justify-between border-y-[1px] border-stone-800/30 py-4 sm:py-5 px-2 sm:px-6 relative">
+                <p className="font-sans text-[9px] sm:text-[10px] uppercase tracking-[0.2em] font-bold text-stone-800 w-1/3 text-right">
+                  WEDNESDAY
+                </p>
+                <div className="w-1/3 flex justify-center text-center">
+                  <p className="font-serif text-5xl sm:text-6xl text-stone-800 font-normal leading-none">
+                    11
+                  </p>
+                </div>
+                <p className="font-sans text-[9px] sm:text-[10px] uppercase tracking-[0.2em] font-bold text-stone-800 w-1/3 text-left">
+                  AT 10:00 AM
+                </p>
+              </div>
 
+              <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.35em] font-bold text-stone-800">
+                2026
+              </p>
+            </div>
 
+            <div className="flex flex-col items-center space-y-2 mt-8 sm:mt-10">
+              <div className="flex items-center gap-2 mb-1">
+                <svg className="w-3 h-3 text-stone-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                  <circle cx="12" cy="9" r="2.5" />
+                </svg>
+                <p className="font-sans text-[9px] sm:text-[10px] uppercase tracking-[0.3em] font-bold text-stone-800">
+                  KING'S COURT
+                </p>
+              </div>
+              <p className="font-sans text-[9px] sm:text-[10px] uppercase tracking-[0.3em] font-bold text-stone-800/80">
+                CINNAMON LAKESIDE
+              </p>
+              <p className="font-sans text-[9px] sm:text-[10px] uppercase tracking-[0.3em] font-bold text-stone-800/80">
+                COLOMBO 2
+              </p>
+            </div>
 
-        </motion.div>
+            <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.35em] font-bold text-stone-800 mt-10 sm:mt-12">
+              RECEPTION TO FOLLOW
+            </p>
+
+            <div className="mt-4 sm:mt-6 opacity-70">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M12 22C12 22 17 18 17 13C17 10 14.5 8 12 8C9.5 8 7 10 7 13C7 18 12 22 12 22Z" />
+                <path d="M12 8V2" />
+                <path d="M9 5H15" />
+              </svg>
+            </div>
+          </div>        </motion.div>
       </motion.div>
 
       <div className="absolute left-6 sm:left-12 top-1/2 -translate-y-1/2 hidden lg:flex flex-col items-center gap-6 z-30">

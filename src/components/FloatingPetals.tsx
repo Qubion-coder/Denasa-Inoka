@@ -13,11 +13,11 @@ interface Petal {
 }
 
 function getPetalCount() {
-  if (typeof window === 'undefined') return 12;
+  if (typeof window === 'undefined') return 30;
   const coarse = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
   const narrow = window.innerWidth < 768;
-  if (coarse || narrow) return 10;
-  return 18;
+  if (coarse || narrow) return 25;
+  return 45;
 }
 
 export const FloatingPetals: React.FC = () => {

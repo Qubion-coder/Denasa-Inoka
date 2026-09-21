@@ -58,7 +58,7 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
                         <MapPin className="text-brand-plum w-5 h-5" />
                       </div>
                       <div>
-                        <p className="text-2xl font-serif text-stone-800 mb-1">King's Court, Cinnamon Lakeside, Colombo 02</p>
+                        <p className="text-2xl font-serif text-stone-800 mb-1 drop-shadow-sm">King's Court, Cinnamon Lakeside, Colombo 02</p>
 
                         <a
                           href={venue.liveLocationUrl}
@@ -98,11 +98,7 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-[2s] ease-in-out group-hover/map:scale-105"
                   />
 
-                  {/* Decorative Location Pin Overlay */}
-                  <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full border border-brand-lavender/30 shadow-lg flex items-center gap-2 pointer-events-none z-30">
-                    <Map className="w-4 h-4 text-brand-plum animate-pulse" />
-                    <span className="text-[9px] uppercase tracking-widest font-bold text-stone-600">Live Map</span>
-                  </div>
+                  {/* Overlay Removed */}
                 </div>
               </motion.div>
 

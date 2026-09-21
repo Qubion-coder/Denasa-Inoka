@@ -2,6 +2,20 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Clock, Calendar, MapPin, Heart, Sparkles, Palette } from 'lucide-react';
 
+const RingIcon = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <circle cx="12" cy="15" r="5" />
+    <path d="M12 10 L10 7 C10 5 14 5 14 7 Z" />
+  </svg>
+);
+
+const LocationPinIcon = ({ className }: { className?: string }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+    <circle cx="12" cy="9" r="2.5" />
+  </svg>
+);
+
 interface CeremonyDetailsProps {
   event?: string | null;
 }
@@ -24,7 +38,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="w-full flex flex-col items-center"
           >
-            <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg text-center">
+            <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg text-center drop-shadow-sm">
                 Together with our families, we request the pleasure of your company at the celebration of our wedding ceremony
             </p>
 
@@ -37,7 +51,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <Calendar className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 group-hover:text-brand-plum transition-colors duration-500">
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Wednesday, November 11, 2026
                   </h4>
                 </div>
@@ -49,7 +63,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <Clock className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Guest arrival
                   </h4>
                   <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
@@ -63,10 +77,10 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
               {/* Church Ceremony */}
               <div className="relative group">
                 <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-brand-lavender/40 shadow-lg flex items-center justify-center group-hover:border-brand-plum group-hover:shadow-[0_4px_15px_rgba(176,137,104,0.3)] transition-all duration-500">
-                  <Clock className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
+                  <RingIcon className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Poruwa Ceremony
                   </h4>
                   <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
@@ -80,15 +94,15 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
               {/* Reception */}
               <div className="relative group">
                 <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-brand-lavender/40 shadow-lg flex items-center justify-center group-hover:border-brand-plum group-hover:shadow-[0_4px_15px_rgba(176,137,104,0.3)] transition-all duration-500">
-                  <Sparkles className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
+                  <LocationPinIcon className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Reception
                   </h4>
                   <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
                     <p>
-                      12:00 Noon - 3:00 PM
+                      11:30 AM - 3:00 PM
                     </p>
                   </div>
                 </div>

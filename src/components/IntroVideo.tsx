@@ -56,18 +56,7 @@ export function IntroVideo({ onComplete, onMusicStart, readyToTransition = true 
         >
           <div className="absolute inset-0 bg-white/60 backdrop-blur-xl rounded-[3rem] border border-white/50 shadow-[0_20px_60px_rgba(176,137,104,0.15)] -z-10" />
           
-          <div className="inline-flex items-center gap-4 mb-6">
-            <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-r from-transparent to-brand-plum/60" />
-            <span className="text-brand-plum uppercase tracking-[0.5em] text-[10px] sm:text-[11px] font-semibold font-sans drop-shadow-sm">
-              Denasa & Inoka
-            </span>
-            <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-plum/60" />
-          </div>
-
-          <h1 className="text-5xl sm:text-7xl font-names text-stone-800 tracking-tight drop-shadow-sm mb-10 leading-tight">
-            Welcome to Our <br />
-            <span className="italic font-light text-brand-plum text-4xl sm:text-6xl">Wedding Celebration</span>
-          </h1>
+          {/* Text removed as requested */}
 
           <button
             onClick={handlePlayClick}
