@@ -44,13 +44,15 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
   return (
     <div ref={containerRef} className="relative h-screen flex items-center justify-center overflow-hidden" style={{ backgroundColor: '#D6C1BC' }}>
       
-      {/* Background Watermark Mandala */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[45%] w-[120vw] sm:w-[80vw] max-w-[800px] aspect-square pointer-events-none z-0 overflow-hidden">
-        <img 
-          src="/mandala_gold.png" 
-          alt="Mandala Watermark" 
-          className="w-full h-full object-contain opacity-60 mix-blend-multiply"
-        />
+      {/* Background Watermark Mandala - Clipped within border */}
+      <div className="absolute inset-0 sm:inset-8 overflow-hidden sm:rounded-3xl pointer-events-none z-0">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[45%] w-[120vw] sm:w-[80vw] max-w-[800px] aspect-square">
+          <img 
+            src="/mandala_gold.png" 
+            alt="Mandala Watermark" 
+            className="w-full h-full object-contain opacity-60 mix-blend-multiply"
+          />
+        </div>
       </div>
 
 
