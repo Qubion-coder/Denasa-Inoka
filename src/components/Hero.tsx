@@ -49,7 +49,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
         <img 
           src="/mandala_gold.png" 
           alt="Mandala Watermark" 
-          className="w-full h-full object-contain opacity-[0.1] mix-blend-multiply"
+          className="w-full h-full object-contain opacity-60 mix-blend-multiply"
         />
       </div>
 
