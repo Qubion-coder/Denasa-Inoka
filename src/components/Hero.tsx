@@ -8,6 +8,20 @@ interface HeroProps {
   inviteeName?: string;
 }
 
+const OrnateDivider = () => (
+  <div className="flex items-center justify-center w-full max-w-sm mx-auto opacity-70 my-2">
+    <div className="flex-1 h-[1px] bg-gradient-to-r from-transparent via-[#b08968] to-[#b08968]" />
+    <div className="px-2 flex items-center justify-center gap-1">
+      <div className="w-1 h-1 rotate-45 bg-[#b08968]" />
+      <div className="w-2 h-2 rotate-45 border border-[#b08968] flex items-center justify-center">
+        <div className="w-0.5 h-0.5 bg-[#b08968]" />
+      </div>
+      <div className="w-1 h-1 rotate-45 bg-[#b08968]" />
+    </div>
+    <div className="flex-1 h-[1px] bg-gradient-to-l from-transparent via-[#b08968] to-[#b08968]" />
+  </div>
+);
+
 function usePrefersReducedMotion() {
   const [reduced, setReduced] = useState(false);
 
@@ -97,18 +111,22 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
                 NOVEMBER
               </p>
 
-              <div className="w-full flex items-center justify-between border-y-[1px] border-stone-800/30 py-4 sm:py-5 px-2 sm:px-6 relative">
-                <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-stone-800 w-1/3 text-right">
-                  WEDNESDAY
-                </p>
-                <div className="w-1/3 flex justify-center text-center">
-                  <p className="font-serif text-6xl sm:text-7xl text-stone-800 font-normal leading-none">
-                    11
+              <div className="w-full">
+                <OrnateDivider />
+                <div className="w-full flex items-center justify-between py-2 sm:py-3 px-2 sm:px-6 relative">
+                  <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-stone-800 w-1/3 text-right">
+                    WEDNESDAY
+                  </p>
+                  <div className="w-1/3 flex justify-center text-center">
+                    <p className="font-serif text-6xl sm:text-7xl text-stone-800 font-normal leading-none">
+                      11
+                    </p>
+                  </div>
+                  <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-stone-800 w-1/3 text-left">
+                    AT 10:00 AM
                   </p>
                 </div>
-                <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-stone-800 w-1/3 text-left">
-                  AT 10:00 AM
-                </p>
+                <OrnateDivider />
               </div>
 
               <p className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800">
