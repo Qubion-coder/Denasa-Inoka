@@ -35,6 +35,24 @@ export function InvitationContent({
 }: InvitationContentProps) {
   if (!active) return null;
 
+  const CardWrapper = ({ children }: { children: React.ReactNode }) => (
+    <div className="py-12 sm:py-24 px-4 sm:px-8 w-full flex justify-center">
+      <div className="relative w-full max-w-4xl bg-[#f9f7f3]/95 backdrop-blur-md rounded-[2.5rem] sm:rounded-[3rem] shadow-[0_15px_40px_rgba(0,0,0,0.1)] border border-white overflow-hidden py-16 sm:py-24 px-4 sm:px-8">
+        {/* Background Watermark Mandala - Clipped within card */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[45%] w-[120vw] sm:w-[80vw] max-w-[800px] aspect-square pointer-events-none z-0">
+          <img 
+            src="/mandala_gold.png" 
+            alt="Mandala Watermark" 
+            className="w-full h-full object-contain opacity-40 mix-blend-multiply"
+          />
+        </div>
+        <div className="relative z-10 w-full h-full">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -66,48 +84,56 @@ export function InvitationContent({
       )}
 
       <DeferredMount active={active} delay={120} minHeight="40vh">
-        <div className="py-24 sm:py-32 bg-brand-rose relative overflow-hidden">
-          {/* Watermark Background Image covering full section including padding */}
-
-          <CoupleDetails />
+        <div className="bg-brand-rose relative overflow-hidden">
+          <CardWrapper>
+            <CoupleDetails />
+          </CardWrapper>
         </div>
       </DeferredMount>
 
 
 
       <DeferredMount active={active} delay={180} minHeight="40vh">
-        <div className="py-24 sm:py-32 bg-brand-blush relative overflow-hidden">
-          <CeremonyDetails event={eventParam} />
+        <div className="bg-brand-blush relative overflow-hidden">
+          <CardWrapper>
+            <CeremonyDetails event={eventParam} />
+          </CardWrapper>
         </div>
       </DeferredMount>
 
 
 
       <DeferredMount active={active} delay={240} minHeight="40vh">
-        <div className="pt-24 pb-12 sm:py-32 bg-brand-rose relative overflow-hidden">
-          <Location event={eventParam} />
+        <div className="bg-brand-rose relative overflow-hidden">
+          <CardWrapper>
+            <Location event={eventParam} />
+          </CardWrapper>
         </div>
       </DeferredMount>
 
 
 
       <DeferredMount active={active} delay={360} minHeight="20vh">
-        <div className="py-24 sm:py-32 bg-brand-blush relative overflow-hidden">
-          <div className="relative z-10">
+        <div className="bg-brand-blush relative overflow-hidden">
+          <CardWrapper>
             <Countdown targetDate={weddingDate} />
-          </div>
+          </CardWrapper>
         </div>
       </DeferredMount>
 
       <DeferredMount active={active} delay={420} minHeight="30vh">
-        <div className="py-24 sm:py-32 bg-brand-rose relative overflow-hidden">
-          <RSVPForm inviteeName={fullInviteeName} eventName={eventLabel} eventParam={eventParam} />
+        <div className="bg-brand-rose relative overflow-hidden">
+          <CardWrapper>
+            <RSVPForm inviteeName={fullInviteeName} eventName={eventLabel} eventParam={eventParam} />
+          </CardWrapper>
         </div>
       </DeferredMount>
 
       <DeferredMount active={active} delay={480} minHeight="30vh">
-        <div className="py-24 sm:py-32 bg-brand-blush relative mt-10 overflow-hidden">
-          <WishesSection eventParam={eventParam} inviteeName={fullInviteeName} />
+        <div className="bg-brand-blush relative overflow-hidden">
+          <CardWrapper>
+            <WishesSection eventParam={eventParam} inviteeName={fullInviteeName} />
+          </CardWrapper>
         </div>
       </DeferredMount>
 

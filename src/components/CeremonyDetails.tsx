@@ -38,24 +38,14 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="w-full flex flex-col items-center"
           >
-            <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg text-center drop-shadow-sm">
-                Together with our families, we request the pleasure of your company at the celebration of our wedding ceremony
-            </p>
+            <h2 className="font-display text-5xl sm:text-6xl lg:text-7xl text-brand-gold drop-shadow-sm mb-12 text-center">
+              Wedding Timeline
+            </h2>
 
             {/* Premium Timeline */}
             <div className="relative space-y-12 ml-10 sm:ml-12 border-l-[1.5px] border-brand-lavender/30 pl-10 sm:pl-12 py-4 w-full max-w-md">
 
-              {/* Date */}
-              <div className="relative group flex items-center min-h-[48px]">
-                <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-brand-lavender/40 shadow-lg flex items-center justify-center group-hover:border-brand-plum group-hover:shadow-[0_4px_15px_rgba(176,137,104,0.3)] transition-all duration-500">
-                  <Calendar className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
-                </div>
-                <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
-                    Wednesday, November 11, 2026
-                  </h4>
-                </div>
-              </div>
+
 
               {/* Guest arrival */}
               <div className="relative group">

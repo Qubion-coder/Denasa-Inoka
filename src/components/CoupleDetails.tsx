@@ -30,7 +30,7 @@ export const CoupleDetails: React.FC = () => {
           <div className="mb-4 flex flex-col items-center lg:items-end">
             {/*<span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>*/}
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg mb-2 drop-shadow-sm">Son of Mr. Karunasena Abeysinghe & Mrs. Sirima Abeysinghe</p>
-            <h3 className="text-4xl sm:text-5xl font-names text-brand-gold drop-shadow-sm">DENASA</h3>
+            <h3 className="text-5xl sm:text-6xl font-display text-brand-gold drop-shadow-[1px_2px_2px_rgba(0,0,0,0.3)]">Denasa</h3>
           </div>
           <div className="hidden lg:flex justify-end mt-8">
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />
@@ -47,7 +47,7 @@ export const CoupleDetails: React.FC = () => {
           <div className="mb-4 flex flex-col items-center lg:items-start">
             {/*<span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>*/}
             <p className="text-stone-500/90 font-serif italic text-base sm:text-lg text-center mb-2 drop-shadow-sm">Daughter of Late Mr. Francis Malawige &<br />Mrs. Prema Witharana Pathirana</p>
-            <h3 className="text-4xl sm:text-5xl font-names text-brand-gold drop-shadow-sm">INOKA</h3>
+            <h3 className="text-5xl sm:text-6xl font-display text-brand-gold drop-shadow-[1px_2px_2px_rgba(0,0,0,0.3)]">Inoka</h3>
           </div>
           <div className="hidden lg:flex justify-start mt-8">
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />
