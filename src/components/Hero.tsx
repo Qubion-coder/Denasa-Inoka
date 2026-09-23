@@ -43,14 +43,14 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
 
   return (
     <div ref={containerRef} className="relative h-screen flex items-center justify-center overflow-hidden" style={{ backgroundColor: '#D6C1BC' }}>
-      
+
       {/* Card Background for Hero */}
       <div className="absolute inset-4 sm:inset-8 bg-[#f9f7f3]/95 backdrop-blur-md rounded-[2.5rem] sm:rounded-[3rem] shadow-[0_15px_40px_rgba(0,0,0,0.1)] border border-white overflow-hidden z-0">
         {/* Background Watermark Mandala - Clipped within card */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[45%] w-[120vw] sm:w-[80vw] max-w-[800px] aspect-square">
-          <img 
-            src="/mandala_gold.png" 
-            alt="Mandala Watermark" 
+          <img
+            src="/mandala_gold.png"
+            alt="Mandala Watermark"
             className="w-full h-full object-contain opacity-40 mix-blend-multiply"
           />
         </div>
@@ -67,11 +67,23 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
           className="flex flex-col items-center"
         >
           <div className="flex flex-col items-center justify-center space-y-4 sm:space-y-5 text-stone-800 w-full mt-4 sm:mt-8 px-4 z-10 relative">
-            
-            {/* Names removed as requested */}
-            
+
+            {/* Newly added DI Logo */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
+              className="mb-6 sm:mb-8 w-64 sm:w-80"
+            >
+              <img 
+                src="/hero_logo.png" 
+                alt="Denasa & Inoka Logo" 
+                className="w-full h-auto drop-shadow-md mix-blend-multiply"
+              />
+            </motion.div>
+
             <p className="font-sans text-[10px] sm:text-xs uppercase tracking-[0.3em] font-semibold text-stone-800/90 leading-loose text-center max-w-[85%] mx-auto pb-4">
-              TOGETHER WITH OUR FAMILIES WE INVITE YOU TO CELEBRATE THE WEDDING OF
+              TOGETHER WITH OUR FAMILIES WE INVITE YOU TO CELEBRATE THE
             </p>
 
 
@@ -84,7 +96,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
               <p className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800">
                 NOVEMBER
               </p>
-              
+
               <div className="w-full flex items-center justify-between border-y-[1px] border-stone-800/30 py-4 sm:py-5 px-2 sm:px-6 relative">
                 <p className="font-sans text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold text-stone-800 w-1/3 text-right">
                   WEDNESDAY
