@@ -87,7 +87,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-              className="mb-6 sm:mb-8 w-48 sm:w-64"
+              className="mb-6 sm:mb-8 w-32 sm:w-48"
             >
               <img 
                 src="/hero_logo.png" 
