@@ -78,7 +78,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
               <img 
                 src="/hero_logo.png" 
                 alt="Denasa & Inoka Logo" 
-                className="w-full h-auto drop-shadow-md mix-blend-multiply"
+                className="w-full h-auto drop-shadow-md"
               />
             </motion.div>
 
