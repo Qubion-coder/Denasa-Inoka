@@ -58,7 +58,7 @@ export function InvitationContent({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className="relative font-sans text-stone-800 bg-brand-rose selection:bg-brand-plum/20"
+      className="relative font-sans text-stone-800 bg-brand-lavender selection:bg-brand-plum/20"
     >
       <motion.button
         initial={{ opacity: 0, scale: 0.8 }}
@@ -84,7 +84,7 @@ export function InvitationContent({
       )}
 
       <DeferredMount active={active} delay={120} minHeight="40vh">
-        <div className="bg-brand-rose relative overflow-hidden">
+        <div className="bg-brand-lavender relative overflow-hidden">
           <CardWrapper>
             <CoupleDetails />
           </CardWrapper>
@@ -94,7 +94,7 @@ export function InvitationContent({
 
 
       <DeferredMount active={active} delay={180} minHeight="40vh">
-        <div className="bg-brand-blush relative overflow-hidden">
+        <div className="bg-brand-lavender relative overflow-hidden">
           <CardWrapper>
             <CeremonyDetails event={eventParam} />
           </CardWrapper>
@@ -104,7 +104,7 @@ export function InvitationContent({
 
 
       <DeferredMount active={active} delay={240} minHeight="40vh">
-        <div className="bg-brand-rose relative overflow-hidden">
+        <div className="bg-brand-lavender relative overflow-hidden">
           <CardWrapper>
             <Location event={eventParam} />
           </CardWrapper>
@@ -114,7 +114,7 @@ export function InvitationContent({
 
 
       <DeferredMount active={active} delay={360} minHeight="20vh">
-        <div className="bg-brand-blush relative overflow-hidden">
+        <div className="bg-brand-lavender relative overflow-hidden">
           <CardWrapper>
             <Countdown targetDate={weddingDate} />
           </CardWrapper>
@@ -122,7 +122,7 @@ export function InvitationContent({
       </DeferredMount>
 
       <DeferredMount active={active} delay={420} minHeight="30vh">
-        <div className="bg-brand-rose relative overflow-hidden">
+        <div className="bg-brand-lavender relative overflow-hidden">
           <CardWrapper>
             <RSVPForm inviteeName={fullInviteeName} eventName={eventLabel} eventParam={eventParam} />
           </CardWrapper>
@@ -130,7 +130,7 @@ export function InvitationContent({
       </DeferredMount>
 
       <DeferredMount active={active} delay={480} minHeight="30vh">
-        <div className="bg-brand-blush relative overflow-hidden">
+        <div className="bg-brand-lavender relative overflow-hidden">
           <CardWrapper>
             <WishesSection eventParam={eventParam} inviteeName={fullInviteeName} />
           </CardWrapper>
@@ -138,7 +138,7 @@ export function InvitationContent({
       </DeferredMount>
 
       <DeferredMount active={active} delay={520}>
-        <footer className="py-12 bg-brand-rose border-t border-brand-lavender/20 text-center relative overflow-hidden mt-10">
+        <footer className="py-12 bg-brand-lavender border-t border-brand-lavender/20 text-center relative overflow-hidden mt-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-brand-lavender/10 blur-[80px] rounded-full pointer-events-none" />
           <Heart className="w-6 h-6 mx-auto mb-6 text-brand-plum fill-brand-lavender/20" />
           <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-2">Thank you</p>

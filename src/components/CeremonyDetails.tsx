@@ -53,12 +53,12 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <Clock className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
+                  <h4 className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Guest arrival
                   </h4>
                   <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
                     <p>
-                      10:00 AM
+                      10:30 AM
                     </p>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <RingIcon className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
+                  <h4 className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Poruwa Ceremony
                   </h4>
                   <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">
@@ -87,7 +87,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <LocationPinIcon className="w-5 h-5 text-brand-plum group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
+                  <h4 className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Reception
                   </h4>
                   <div className="space-y-1.5 text-stone-700 font-serif text-xl sm:text-2xl font-bold">

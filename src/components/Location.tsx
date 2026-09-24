@@ -58,7 +58,7 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
                         <MapPin className="text-brand-plum w-5 h-5" />
                       </div>
                       <div>
-                        <p className="text-2xl font-serif text-stone-800 mb-1 drop-shadow-sm">King's Court, Cinnamon Lakeside, Colombo 02</p>
+                        <p className="font-sans text-[11px] sm:text-xs uppercase tracking-[0.35em] font-bold text-stone-800 mb-1 drop-shadow-sm leading-relaxed">King's Court, Cinnamon Lakeside, Colombo 02</p>
 
                         <a
                           href={venue.liveLocationUrl}

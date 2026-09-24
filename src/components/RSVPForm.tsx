@@ -63,10 +63,8 @@ export const RSVPForm: React.FC<RSVPFormProps> = ({ inviteeName = '', eventName 
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="glass p-10 sm:p-14 lg:p-16 rounded-[3rem] border border-white/40 shadow-[0_30px_60px_rgba(176,137,104,0.1)] relative overflow-hidden bg-white/60 backdrop-blur-3xl lg:flex items-center gap-16"
+        className="relative w-full lg:flex items-center gap-12 lg:gap-20"
       >
-        {/* Soft top border line */}
-        <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-brand-rose via-brand-plum/80 to-brand-rose" />
 
         {/* Left Side: Elegant Text */}
         <div className="lg:w-1/2 lg:pr-10 mb-12 lg:mb-0 relative text-center lg:text-left">
@@ -79,7 +77,7 @@ export const RSVPForm: React.FC<RSVPFormProps> = ({ inviteeName = '', eventName 
             <div className="hidden lg:block w-16 h-[1px] bg-gradient-to-r from-brand-plum/60 to-transparent" />
           </div>
 
-          <h2 className="text-3xl sm:text-4xl font-display text-stone-800 tracking-tight leading-[1.1] mb-6 drop-shadow-sm">
+          <h2 className="text-3xl sm:text-4xl font-display text-brand-gold tracking-tight leading-[1.1] mb-6 drop-shadow-[1px_1px_2px_rgba(0,0,0,0.1)]">
             We request the honor of your presence
           </h2>
 
@@ -122,7 +120,7 @@ export const RSVPForm: React.FC<RSVPFormProps> = ({ inviteeName = '', eventName 
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 onSubmit={handleSubmit}
-                className="space-y-6 bg-white/40 p-8 sm:p-10 rounded-[2.5rem] border border-white shadow-[0_15px_30px_rgba(0,0,0,0.05)]"
+                className="space-y-6 w-full"
               >
                 <div>
                   <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 ml-2">NAME</label>

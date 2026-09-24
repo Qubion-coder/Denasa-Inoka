@@ -75,7 +75,7 @@ export const WishesSection: React.FC<WishesSectionProps> = ({ eventParam = 'both
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-6 relative py-12">
+    <div className="max-w-4xl mx-auto px-6 relative pt-48 pb-12 mt-12 sm:mt-24">
       {/* Background ambient glow */}
       <div className="absolute top-0 right-1/4 w-3/4 h-3/4 bg-brand-lavender/10 blur-[120px] rounded-full pointer-events-none -z-10" />
 
@@ -84,8 +84,8 @@ export const WishesSection: React.FC<WishesSectionProps> = ({ eventParam = 'both
         <span className="text-brand-plum uppercase tracking-[0.5em] text-[10px] font-bold mb-4 block drop-shadow-sm">
           Guestbook
         </span>
-        <h2 className="text-5xl sm:text-7xl font-display text-brand-plum tracking-tight drop-shadow-sm">
-          Blessings & <span className="italic font-light text-brand-plum">Wishes</span>
+        <h2 className="text-5xl sm:text-7xl font-display text-brand-gold tracking-tight drop-shadow-sm">
+          Blessings & <span className="italic font-light text-brand-gold">Wishes</span>
         </h2>
         <div className="w-16 h-[1px] bg-gradient-to-r from-transparent via-brand-lavender/60 to-transparent mx-auto mt-8" />
       </div>

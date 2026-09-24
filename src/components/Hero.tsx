@@ -71,7 +71,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
       </div>
 
       <motion.div
-        className="relative z-10 text-center px-4 sm:px-6 w-full max-w-6xl mt-8 sm:mt-16"
+        className="relative z-10 text-center px-4 sm:px-6 w-full max-w-6xl mt-4 sm:mt-8"
         style={useParallax ? { opacity } : undefined}
       >
         <motion.div
@@ -80,14 +80,14 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
           className="flex flex-col items-center"
         >
-          <div className="flex flex-col items-center justify-center space-y-4 sm:space-y-5 text-stone-800 w-full mt-4 sm:mt-8 px-4 z-10 relative">
+          <div className="flex flex-col items-center justify-center space-y-2 sm:space-y-3 text-stone-800 w-full mt-4 sm:mt-6 px-4 z-10 relative">
 
             {/* Newly added DI Logo */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-              className="mb-6 sm:mb-8 w-32 sm:w-48"
+              className="mb-4 sm:mb-6 w-32 sm:w-48"
             >
               <img 
                 src="/hero_logo.png" 
@@ -96,17 +96,17 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
               />
             </motion.div>
 
-            <p className="font-sans text-[10px] sm:text-xs uppercase tracking-[0.3em] font-semibold text-stone-800/90 leading-loose text-center max-w-[85%] mx-auto pb-4">
+            <p className="font-sans text-[11px] sm:text-sm uppercase tracking-[0.3em] font-semibold text-stone-800/90 leading-loose text-center max-w-[85%] mx-auto pb-2">
               TOGETHER WITH OUR FAMILIES WE INVITE YOU TO CELEBRATE THE
             </p>
 
 
 
-            <h1 className="font-display text-7xl sm:text-[7rem] lg:text-[8.5rem] text-stone-800 font-normal drop-shadow-[1px_1px_2px_rgba(0,0,0,0.1)] py-2 sm:py-4 -my-4 leading-none">
+            <h1 className="font-display text-6xl sm:text-[6rem] lg:text-[7.5rem] text-stone-800 font-normal drop-shadow-[1px_1px_2px_rgba(0,0,0,0.1)] py-1 sm:py-2 -my-2 sm:-my-4 leading-none">
               Wedding
             </h1>
 
-            <div className="flex flex-col items-center w-full max-w-xs sm:max-w-sm mt-8 sm:mt-12 space-y-4">
+            <div className="flex flex-col items-center w-full max-w-xs sm:max-w-sm mt-4 sm:mt-6 space-y-2">
               <p className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800">
                 NOVEMBER
               </p>
@@ -134,7 +134,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center space-y-2 mt-8 sm:mt-10">
+            <div className="flex flex-col items-center space-y-1 sm:space-y-2 mt-4 sm:mt-6">
               <div className="flex items-center gap-2 mb-1">
                 <svg className="w-4 h-4 text-stone-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
@@ -152,11 +152,11 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
               </p>
             </div>
 
-            <p className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mt-10 sm:mt-12">
+            <p className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mt-6 sm:mt-8">
               RECEPTION TO FOLLOW
             </p>
 
-            <div className="mt-4 sm:mt-6 opacity-70">
+            <div className="mt-2 sm:mt-4 opacity-70">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M12 22C12 22 17 18 17 13C17 10 14.5 8 12 8C9.5 8 7 10 7 13C7 18 12 22 12 22Z" />
                 <path d="M12 8V2" />
@@ -186,17 +186,6 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
         <div className="w-[1px] h-28 bg-gradient-to-t from-transparent via-brand-plum to-transparent" />
       </div>
 
-      <motion.div
-        className="absolute bottom-0 sm:bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 cursor-pointer z-30"
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1, duration: 0.6 }}
-      >
-        <span className="text-[9px] sm:text-[10px] font-sans uppercase tracking-[0.5em] text-stone-900 font-extrabold bg-gradient-to-r from-brand-rose via-white to-brand-rose px-5 py-2 rounded-full border border-brand-plum/40 backdrop-blur-md shadow-lg">
-          Discover
-        </span>
-        <div className="w-[1px] h-6 sm:h-16 bg-gradient-to-b from-brand-plum to-transparent animate-bounce" />
-      </motion.div>
     </div>
   );
 };
