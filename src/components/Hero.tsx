@@ -61,11 +61,11 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
       {/* Card Background for Hero */}
       <div className="absolute inset-4 sm:inset-8 bg-[#f9f7f3]/95 backdrop-blur-md rounded-[2.5rem] sm:rounded-[3rem] shadow-[0_15px_40px_rgba(0,0,0,0.1)] border border-white overflow-hidden z-0">
         {/* Background Watermark Mandala - Clipped within card */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[45%] w-[120vw] sm:w-[80vw] max-w-[800px] aspect-square">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[40%] w-[90vw] sm:w-[60vw] max-w-[500px] aspect-square">
           <img
             src="/mandala_gold.png"
             alt="Mandala Watermark"
-            className="w-full h-full object-contain opacity-40 mix-blend-multiply"
+            className="w-full h-full object-contain opacity-15 mix-blend-multiply"
           />
         </div>
       </div>

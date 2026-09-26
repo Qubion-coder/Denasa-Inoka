@@ -39,7 +39,7 @@ export function IntroVideo({ onComplete, onMusicStart, readyToTransition = true 
             autoPlay
             muted
             loop
-            src="/update_this_video_i_want_to_a.mp4"
+            src="/gemini_generated_video_e5fcc421.mp4"
           />
           {/* Overlay to ensure text remains readable */}
           <div className="absolute inset-0 bg-brand-blush/20 mix-blend-overlay" />
@@ -83,7 +83,7 @@ export function IntroVideo({ onComplete, onMusicStart, readyToTransition = true 
             playsInline
             autoPlay
             onEnded={handleVideoEnded}
-            src="/update_this_video_i_want_to_a.mp4"
+            src="/gemini_generated_video_e5fcc421.mp4"
           />
           <button 
             onClick={handleVideoEnded}
