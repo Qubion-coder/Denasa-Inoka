@@ -41,18 +41,18 @@ export const Admin: React.FC = () => {
   };
 
   const generateFullMessage = (url: string, title: string, name: string) => {
-    return `Dear ${title ? title + ' ' : ''}${name} ❤️
+    return `Dear ${title ? title + ' ' : ''}${name},
 
-With joyful hearts, we warmly invite you to celebrate one of the most special days of our lives as we begin our journey together.
+Together with our families, we joyfully invite you to celebrate one of the most special days of our lives as we begin our journey together.
 
-Please view our wedding invitation and all the event details through the link below 🌐:
+Please view the wedding invitation and all event details via the link below:
 
 ${url}
 
-Your presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.
+We would be honoured by your presence.
 
-With love,
-❤️ Inoka & Denasa`;
+Warm regards,
+Denasa & Inoka`;
   };
 
   const handleCopyMessageActive = () => {
