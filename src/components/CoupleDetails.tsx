@@ -20,8 +20,8 @@ export const CoupleDetails: React.FC = () => {
           className="text-center w-full flex flex-col items-center"
         >
           <div className="mb-2 flex flex-col items-center">
-            <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl drop-shadow-sm mb-1">Son of</p>
-            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg drop-shadow-sm">Mr. Karunasena Abeysinghe & Mrs. Sirima Abeysinghe</p>
+            <p className="text-stone-700 font-['Cinzel'] font-semibold uppercase tracking-[0.15em] text-xs sm:text-sm drop-shadow-sm mb-2">Son of</p>
+            <p className="text-stone-700 font-['Cinzel'] font-semibold uppercase tracking-[0.15em] text-[10px] sm:text-xs drop-shadow-sm leading-[1.8] max-w-[90%] sm:max-w-md mx-auto">Mr. Karunasena Abeysinghe &<br />Mrs. Sirima Abeysinghe</p>
             <h3 className="text-6xl sm:text-7xl font-display text-brand-gold drop-shadow-[1px_2px_2px_rgba(0,0,0,0.3)] mt-6">Denasa</h3>
           </div>
         </motion.div>
@@ -35,8 +35,8 @@ export const CoupleDetails: React.FC = () => {
           className="text-center w-full flex flex-col items-center"
         >
           <div className="mb-2 flex flex-col items-center">
-            <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl drop-shadow-sm mb-1">Daughter of</p>
-            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg drop-shadow-sm">Late Mr. Francis Malawige & Mrs. Prema Witharana Pathirana</p>
+            <p className="text-stone-700 font-['Cinzel'] font-semibold uppercase tracking-[0.15em] text-xs sm:text-sm drop-shadow-sm mb-2">Daughter of</p>
+            <p className="text-stone-700 font-['Cinzel'] font-semibold uppercase tracking-[0.15em] text-[10px] sm:text-xs drop-shadow-sm leading-[1.8] max-w-[90%] sm:max-w-md mx-auto">Late Mr. Francis Malawige &<br />Mrs. Prema Witharana Pathirana</p>
             <h3 className="text-6xl sm:text-7xl font-display text-brand-gold drop-shadow-[1px_2px_2px_rgba(0,0,0,0.3)] mt-6">Inoka</h3>
           </div>
         </motion.div>
