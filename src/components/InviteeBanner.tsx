@@ -26,21 +26,21 @@ export const InviteeBanner: React.FC<InviteeBannerProps> = ({ inviteeName, event
           <div className="inline-flex items-center gap-3 mb-4">
             <Sparkles className="w-4 h-4 text-brand-plum animate-pulse" />
             <span className="text-brand-plum uppercase tracking-[0.4em] sm:tracking-[0.5em] text-[10px] sm:text-xs font-bold drop-shadow-sm">
-              Specially Invited Guest
+              Invitation
             </span>
             <Sparkles className="w-4 h-4 text-brand-plum animate-pulse" />
           </div>
 
-          <h2 className="text-lg sm:text-xl lg:text-2xl font-sans uppercase tracking-[0.3em] sm:tracking-[0.4em] font-bold text-stone-800 mb-6 drop-shadow-sm px-4 leading-relaxed">
+          <h2 className="text-lg sm:text-xl lg:text-2xl font-sans capitalize tracking-[0.2em] sm:tracking-[0.3em] font-bold text-stone-800 mb-6 drop-shadow-sm px-4 leading-relaxed">
             {inviteeName}
           </h2>
 
           <div className="flex items-center gap-4 justify-center max-w-xl mx-auto">
-            <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-brand-plum/40" />
-            <p className="text-stone-600 font-serif italic text-lg sm:text-xl">
-              We joyfully invite you to celebrate <span className="text-brand-plum font-semibold">{eventLabel}</span> with us.
+            <div className="hidden sm:block h-[1px] w-12 bg-gradient-to-r from-transparent to-brand-plum/40" />
+            <p className="text-stone-600 font-serif italic text-lg sm:text-xl px-4">
+              Together with our families we warmly invite you to celebrate with us!
             </p>
-            <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-brand-plum/40" />
+            <div className="hidden sm:block h-[1px] w-12 bg-gradient-to-l from-transparent to-brand-plum/40" />
           </div>
 
           {tableParam ? (
