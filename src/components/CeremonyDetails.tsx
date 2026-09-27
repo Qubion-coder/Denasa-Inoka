@@ -38,7 +38,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="w-full flex flex-col items-center"
           >
-            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-brand-gold drop-shadow-sm mb-12 text-center whitespace-nowrap">
+            <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl text-brand-gold drop-shadow-sm mb-12 text-center whitespace-nowrap">
               Wedding Timeline
             </h2>
 
