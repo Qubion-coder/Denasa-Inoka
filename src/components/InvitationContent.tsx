@@ -36,8 +36,8 @@ export function InvitationContent({
   if (!active) return null;
 
   const CardWrapper = ({ children }: { children: React.ReactNode }) => (
-    <div className="py-12 sm:py-24 px-4 sm:px-8 w-full flex justify-center">
-      <div className="relative w-full max-w-4xl min-h-[75vh] flex flex-col justify-center bg-[#f9f7f3]/95 backdrop-blur-md rounded-[2.5rem] sm:rounded-[3rem] shadow-[0_15px_40px_rgba(0,0,0,0.1)] border border-white overflow-hidden py-16 sm:py-24 px-4 sm:px-8">
+    <div className="p-4 sm:p-6 lg:p-8 w-full flex justify-center min-h-[95vh] items-center">
+      <div className="relative w-full h-full min-h-[calc(95vh-2rem)] max-w-4xl flex flex-col justify-center bg-[#f9f7f3]/95 backdrop-blur-md rounded-[2.5rem] sm:rounded-[3rem] shadow-[0_15px_40px_rgba(0,0,0,0.12)] border border-white overflow-hidden py-16 sm:py-24 px-4 sm:px-8">
         {/* Background Watermark Mandala - Clipped within card */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-[40%] w-[90vw] sm:w-[60vw] max-w-[500px] aspect-square pointer-events-none z-0">
           <img 
@@ -46,7 +46,7 @@ export function InvitationContent({
             className="w-full h-full object-contain opacity-15 mix-blend-multiply"
           />
         </div>
-        <div className="relative z-10 w-full h-full flex flex-col justify-center">
+        <div className="relative z-10 w-full flex flex-col justify-center">
           {children}
         </div>
       </div>
