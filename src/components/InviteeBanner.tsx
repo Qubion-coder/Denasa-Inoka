@@ -31,7 +31,7 @@ export const InviteeBanner: React.FC<InviteeBannerProps> = ({ inviteeName, event
             <Sparkles className="w-4 h-4 text-brand-plum animate-pulse" />
           </div>
 
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-display text-stone-800 tracking-tight mb-4 drop-shadow-sm">
+          <h2 className="text-lg sm:text-xl lg:text-2xl font-sans uppercase tracking-[0.3em] sm:tracking-[0.4em] font-bold text-stone-800 mb-6 drop-shadow-sm px-4 leading-relaxed">
             {inviteeName}
           </h2>
 
