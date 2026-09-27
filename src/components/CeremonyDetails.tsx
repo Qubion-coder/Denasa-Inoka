@@ -58,7 +58,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   </h4>
                   <div className="space-y-1.5 text-stone-800 font-sans text-sm sm:text-base tracking-[0.35em] font-bold uppercase">
                     <p>
-                      10:30 AM
+                      10:00 AM
                     </p>
                   </div>
                 </div>
