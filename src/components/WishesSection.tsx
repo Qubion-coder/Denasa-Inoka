@@ -104,8 +104,8 @@ export const WishesSection: React.FC<WishesSectionProps> = ({ eventParam = 'both
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-lavender to-transparent opacity-50" />
 
           <form onSubmit={handleSubmit} className="space-y-8">
-            <div className="text-center mb-10">
-              <p className="text-stone-500 font-serif italic text-lg leading-relaxed max-w-lg mx-auto">
+            <div className="text-center mb-10 px-4">
+              <p className="text-stone-500 font-sans uppercase tracking-[0.3em] sm:tracking-[0.4em] text-[10px] sm:text-[11px] font-bold leading-relaxed max-w-lg mx-auto">
                 Leave a little note or a piece of advice for our journey ahead.
               </p>
             </div>
