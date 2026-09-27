@@ -75,7 +75,7 @@ export const WishesSection: React.FC<WishesSectionProps> = ({ eventParam = 'both
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-2 sm:px-6 relative pb-12">
+    <div className="w-full max-w-4xl mx-auto px-2 sm:px-6 relative pt-12 sm:pt-16 pb-12">
       {/* Background ambient glow */}
       <div className="absolute top-0 right-1/4 w-3/4 h-3/4 bg-brand-lavender/10 blur-[120px] rounded-full pointer-events-none -z-10" />
 
