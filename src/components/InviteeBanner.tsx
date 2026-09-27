@@ -8,6 +8,9 @@ interface InviteeBannerProps {
 }
 
 export const InviteeBanner: React.FC<InviteeBannerProps> = ({ inviteeName, eventLabel }) => {
+  const params = new URLSearchParams(window.location.search);
+  const tableParam = params.get('table');
+
   return (
     <div className="w-full bg-gradient-to-r from-brand-rose/40 via-brand-rose/80 to-brand-rose/40 border-y border-brand-lavender/30 py-12 px-6 relative overflow-hidden shadow-sm">
       {/* Decorative background glows */}
@@ -40,7 +43,19 @@ export const InviteeBanner: React.FC<InviteeBannerProps> = ({ inviteeName, event
             <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-brand-plum/40" />
           </div>
 
-          <Heart className="w-5 h-5 text-brand-plum mt-6 fill-brand-lavender/20 animate-pulse" />
+          {tableParam ? (
+            <div className="mt-8 inline-flex items-center gap-4 px-6 py-3 rounded-full bg-white/60 border border-brand-lavender/60 shadow-sm backdrop-blur-sm group hover:border-brand-plum/40 transition-colors">
+              <span className="text-stone-500 uppercase tracking-[0.3em] text-[10px] sm:text-xs font-bold">
+                Table
+              </span>
+              <div className="w-[1px] h-5 bg-brand-plum/20 group-hover:bg-brand-plum/40 transition-colors" />
+              <span className="font-display text-2xl sm:text-3xl text-brand-gold leading-none pt-1 pr-1">
+                {tableParam}
+              </span>
+            </div>
+          ) : (
+            <Heart className="w-5 h-5 text-brand-plum mt-6 fill-brand-lavender/20 animate-pulse" />
+          )}
         </motion.div>
       </div>
     </div>
