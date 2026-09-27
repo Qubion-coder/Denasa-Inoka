@@ -154,31 +154,7 @@ export const WishesSection: React.FC<WishesSectionProps> = ({ eventParam = 'both
           </form>
         </motion.div>
 
-        {/* Wishes List - Stacked Centrally Below */}
-        <div className="w-full space-y-6 max-h-[800px] overflow-y-auto pr-4 scrollbar-thin">
-          <AnimatePresence initial={false}>
-            {wishes.map((wish) => (
-              <motion.div
-                key={wish.id}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                className="glass p-8 sm:p-10 rounded-3xl border border-brand-lavender/20 shadow-sm relative overflow-hidden group bg-white/50 backdrop-blur-sm"
-              >
-                <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-brand-plum/20 to-brand-lavender/40 group-hover:from-brand-plum group-hover:to-brand-lavender transition-all duration-500" />
-                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 sm:gap-4 mb-4">
-                  <h4 className="font-display text-2xl text-stone-800 tracking-tight pl-2">{wish.name}</h4>
-                  <span className="text-[9px] uppercase tracking-[0.2em] text-stone-400 font-bold bg-white/60 px-3 py-1 rounded-full border border-stone-100/50">
-                    {wish.createdAt ? getRelativeTime(wish.createdAt) : 'just now'}
-                  </span>
-                </div>
-                <p className="text-stone-600 font-serif italic text-lg sm:text-lg leading-relaxed pl-2">
-                  "{wish.message}"
-                </p>
-              </motion.div>
-            ))}
-          </AnimatePresence>
-        </div>
+
       </div>
     </div>
   );
