@@ -38,7 +38,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
             transition={{ duration: 1.2, ease: "easeOut" }}
             className="w-full flex flex-col items-center"
           >
-            <h2 className="font-display text-5xl sm:text-6xl lg:text-7xl text-brand-gold drop-shadow-sm mb-12 text-center">
+            <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-brand-gold drop-shadow-sm mb-12 text-center whitespace-nowrap">
               Wedding Timeline
             </h2>
 
@@ -56,7 +56,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <h4 className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Guest arrival
                   </h4>
-                  <div className="space-y-1.5 text-stone-800 font-sans text-sm sm:text-base tracking-[0.35em] font-bold uppercase">
+                  <div className="space-y-1.5 text-stone-800 font-sans text-[11px] sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] font-bold uppercase whitespace-nowrap">
                     <p>
                       10:00 AM
                     </p>
@@ -73,7 +73,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <h4 className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Poruwa Ceremony
                   </h4>
-                  <div className="space-y-1.5 text-stone-800 font-sans text-sm sm:text-base tracking-[0.35em] font-bold uppercase">
+                  <div className="space-y-1.5 text-stone-800 font-sans text-[11px] sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] font-bold uppercase whitespace-nowrap">
                     <p>
                       11:00 AM
                     </p>
@@ -90,7 +90,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   <h4 className="font-sans text-xs sm:text-sm uppercase tracking-[0.35em] font-bold text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500 drop-shadow-sm">
                     Reception
                   </h4>
-                  <div className="space-y-1.5 text-stone-800 font-sans text-sm sm:text-base tracking-[0.35em] font-bold uppercase">
+                  <div className="space-y-1.5 text-stone-800 font-sans text-[11px] sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] font-bold uppercase whitespace-nowrap">
                     <p>
                       11:30 AM - 3:00 PM
                     </p>
