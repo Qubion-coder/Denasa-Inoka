@@ -6,6 +6,7 @@ import { toast } from 'sonner';
 export const Admin: React.FC = () => {
   const [guestTitle, setGuestTitle] = useState('Mr.');
   const [guestName, setGuestName] = useState('');
+  const [tableNumber, setTableNumber] = useState('');
   const [generatedUrl, setGeneratedUrl] = useState('');
   const [copied, setCopied] = useState(false);
 
@@ -21,6 +22,7 @@ export const Admin: React.FC = () => {
     const params = new URLSearchParams();
     if (guestTitle) params.append('title', guestTitle);
     params.append('name', guestName.trim());
+    if (tableNumber.trim()) params.append('table', tableNumber.trim());
 
     const fullUrl = `${baseUrl}/?${params.toString()}`;
     setGeneratedUrl(fullUrl);
@@ -141,6 +143,20 @@ With love,
                     placeholder="e.g. Sanjaya"
                     value={guestName}
                     onChange={(e) => setGuestName(e.target.value)}
+                    className="w-full bg-white px-6 py-4 rounded-full border border-stone-200/80 focus:ring-2 focus:ring-brand-lavender/30 focus:border-brand-plum/40 outline-none transition-all font-serif italic text-lg shadow-inner text-stone-800 placeholder:text-stone-400"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 flex items-center gap-2 ml-1">
+                    <Sparkles className="w-4 h-4 text-brand-plum" />
+                    Table Number (Optional)
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="e.g. 12 or T-1"
+                    value={tableNumber}
+                    onChange={(e) => setTableNumber(e.target.value)}
                     className="w-full bg-white px-6 py-4 rounded-full border border-stone-200/80 focus:ring-2 focus:ring-brand-lavender/30 focus:border-brand-plum/40 outline-none transition-all font-serif italic text-lg shadow-inner text-stone-800 placeholder:text-stone-400"
                   />
                 </div>
