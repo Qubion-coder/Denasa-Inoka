@@ -42,8 +42,8 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
                 <div className="w-14 h-14 bg-stone-50 rounded-full border border-brand-lavender/50 shadow-sm flex items-center justify-center flex-shrink-0 mt-2">
                   <MapPin className="text-brand-plum w-6 h-6" />
                 </div>
-                <div className="flex-1">
-                  <h3 className="font-serif text-[1.75rem] sm:text-4xl text-stone-800 leading-snug">
+                <div className="flex-1 mt-2">
+                  <h3 className="font-sans text-xs sm:text-sm uppercase tracking-[0.3em] font-bold text-stone-800 leading-relaxed">
                     King's Court, Cinnamon Lakeside, Colombo 02
                   </h3>
                 </div>
